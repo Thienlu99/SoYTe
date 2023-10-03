@@ -118,16 +118,19 @@
 }
 .banner {
   /* height: 400px; */
+  width: 100%;
   position: relative;
+  /* height: 400px; */
 }
 #searchbanner {
   position: absolute;
-  top: 35px;
-  left: 200px;
+  top: 50px;
+  right: 197px;
+
 }
 #searchbanner input {
   height: 54px;
-  width: 900px;
+  width: 890px;
   border-radius: 8px;
   background: #fff;
   border: 1px solid #fff;
@@ -217,11 +220,16 @@
   height: 50px;
   width: 300px;
 }
+/* footer */
 footer{
   background-color:  #212F4A;
   min-height: 316px;
   margin-top: 30px;
 
+}
+footer .footer--logo img{
+  width: 79px;
+height: 79px;
 }
 .footer{
   padding-top: 43px;
@@ -245,4 +253,11 @@ font-weight: 700;
     display: flex;
     gap: 4px;
     /* ok */
+  }
+  .icon--item img{
+    width: 72px;
+height: 72px;
+
+
+    
   }

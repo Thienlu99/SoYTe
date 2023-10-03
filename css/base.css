@@ -7,7 +7,7 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   /* width: 1440px; */
-  height: 2354px;
+  /* height: 2354px; */
 }
 .container {
   /* max-width: 1182px; */
@@ -20,8 +20,9 @@ body {
 }
 img {
   max-width: 100%; /* Hình ảnh sẽ không vượt quá chiều rộng của phần tử chứa */
-  height: auto; /* Chiều cao của hình ảnh được tự động điều chỉnh để duy trì tỷ lệ khung hình */
   object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 @media (min-width: 1200px) {
@@ -30,22 +31,25 @@ img {
   }
 }
 @media (max-width: 1174px) {
-  #searchbanner input {
-    width: 100%; /* Sử dụng toàn bộ chiều rộng của màn hình */
-    max-width: 500px; /* Giới hạn chiều rộng tối đa */
-}
 
-  #searchbanner button {
-    width: 100%; /* Sử dụng toàn bộ chiều rộng của màn hình */
-    max-width: 50px; /* Giới hạn chiều rộng tối đa */
-   
-}
 .button--item__button{
   display: block;
 
 }
 .button--item__button button{
   margin:20px 0;
+}
+
+#searchbanner input {
+
+  width: 500px; /* Giới hạn chiều rộng tối đa */
+}
+
+#searchbanner button {
+
+  width: 40px; /* Giới hạn chiều rộng tối đa */
+
+ 
 }
 }
 
@@ -76,14 +80,16 @@ img {
  
 
   #searchbanner input {
-    width: 100%; /* Sử dụng toàn bộ chiều rộng của màn hình */
-    max-width: 150px; /* Giới hạn chiều rộng tối đa */
+    width: 100%;
+    width: 250px; /* Giới hạn chiều rộng tối đa */
 }
 
   #searchbanner button {
-    width: 100%; /* Sử dụng toàn bộ chiều rộng của màn hình */
-    max-width: 40px; /* Giới hạn chiều rộng tối đa */
- 
-   
+   width: 100%;
+    max-width: 40px; /* Giới hạn chiều rộng tối đa */ 
+}
+
+.footer h4{
+  padding-top: 20px;
 }
 }
