@@ -81,12 +81,17 @@ img {
 
   #searchbanner input {
     width: 100%;
-    width: 250px; /* Giới hạn chiều rộng tối đa */
+    width: 200px; /* Giới hạn chiều rộng tối đa */
+    height: 30px;
 }
 
   #searchbanner button {
    width: 100%;
     max-width: 40px; /* Giới hạn chiều rộng tối đa */ 
+    height: 30px;
+}
+.search-icon-banner {
+  font-size: 22px;
 }
 
 .footer h4{
