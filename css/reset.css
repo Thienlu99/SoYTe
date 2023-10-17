@@ -19,19 +19,23 @@ button {
   outline: none;
   font: inherit;
 }
-input {
+/* input {
   line-height: normal;
-}
+} */
 label,
 button {
   cursor: pointer;
   user-select: none !important;
 }
 ul {
-  list-style: none;
+  /* list-style: none; */
 }
 a {
   text-decoration: none;
+}
+a:hover{
+text-decoration: none;
+color: var(--primary) !important;
 }
 img,
 picture,
@@ -74,3 +78,4 @@ h6 {
     font-size: 16px;
   }
 }
+

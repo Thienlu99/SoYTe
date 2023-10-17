@@ -2,327 +2,1525 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HaLCYONDAYS</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/all.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/base.css" />
-  <link rel="stylesheet" href="css/reset.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
-  <header id="home">
-    <div class="container">
-      <div class="header">
-        <div class="header--all">
-          <div class="header--logo">
-            <a href="#"><img src="img/image 8.png" alt="" /></a>
-            <p class="header--logo__text">SỞ Y TẾ HÀ NỘI</p>
-          </div>
-          <!-- end logo -->
-          <div class="header--search--lang">
-            <form action="https://test.nuocmamtungvan.com/" method="GET" role="form" id="searchform">
-              <input type="text" class="search-box_input search-ajax search--lang__border" autocomplete="off" name="s"
-                placeholder="Tìm kiếm" />
-              <button type="submit" data-spm-item="SearchBtn?trg=manual&amp;typ=entry" class="search-box_btn-search">
-                <span class="search-box_icon-search i-icon i-icon-icon-search">
-                  <i class="fas fa-search"></i>
-                </span>
-              </button>
-            </form>
-            <!-- input -->
-            <div class="dropdown header--lang search--lang__border">
-              <a class="dropdown-toggle icon-padding" href="#" role="button" data-toggle="dropdown"
-                aria-expanded="false">
-                <i class="fas fa-globe"></i> VI
-              </a>
+    <header id="home">
+        <div class="container">
+            <div class="header">
+                <div class="header--all--logo--lang">
 
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-globe"></i> EngLand</a>
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-globe"></i> France</a>
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-globe"></i> China</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="hr"></div>
-        <nav class="header--menu">
-          <ul>
-            <li><a href="">Sở y tế <i class="fas fa-angle-down"></i></a></li>
-            <li> <a href="">Công dân <i class="fas fa-angle-down"></i></a></li>
-            <li><a href="">Doanh nghiệp <i class="fas fa-angle-down"></i></a></li>
-            <li><a href="">Câu hỏi thường gặp <i class="fas fa-angle-down"></i></a></li>
-          </ul>
-
-        </nav>
-      </div>
-      <!-- end header -->
+                    <div class="header--logo">
+                        <a href="/" class="header--logo--img--text">
+                            <img src="img/image 88.png" alt="" />
+                            <p class="header--logo__text">SỞ Y TẾ HÀ NỘI</p>
+                        </a>
+                    </div>
 
 
-    </div>
-    </div>
-  </header>
-  <!-- end header -->
-  <section class="banner">
-    <!-- <div class="container-fluid"> -->
-    <div class="card bg-dark text-white" style="border: none;">
-      <img src="img/image 9.png" alt="">
-      <div class="container">
-        <form action="https://test.nuocmamtungvan.com/" method="GET" role="form" id="searchbanner">
-          <input type="text" class=" search-ajax " autocomplete="off" name="s" placeholder="Tìm kiếm" />
-          <button class="btn search--banner--button"><i class="fas fa-search search-icon-banner"></i></button>
-        </form>
-      </div>
-    </div>
- 
+                    <div class="header--search--lang">
+                        <form action="https://test.nuocmamtungvan.com/" method="GET" role="form" id="searchform"
+                            class="search--header--home">
+                            <input type="text" class="search-box_input search-ajax search--lang__border"
+                                autocomplete="off" name="s" placeholder="Tìm kiếm" />
+                            <button type="submit" data-spm-item="SearchBtn?trg=manual&amp;typ=entry"
+                                class="search-box_btn-search">
+                                <span class="search-box_icon-search i-icon i-icon-icon-search">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </button>
+                        </form>
+                        <!-- input -->
+                        <div class="dropdown header--lang search--lang__border">
+                            <a class="dropdown-toggle icon-padding" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fas fa-globe"></i> VI
+                            </a>
 
-    <!-- </div> -->
-  </section>
-  <!-- end banner -->
-  <section class="sect-breadcrumb">
-    <div class="container">
-      <div class="fui-basic-breadcrumb">
-        <ul class="breadcrumb-list">
-          <li class="breadcrumb-list-item">
-            <a href="#" class="breadcrumb-link">
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-globe"></i> EngLand</a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-globe"></i> France</a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-globe"></i> China</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="hr"></div> -->
 
-              Trang chủ
-            </a>
-          </li>
-          <li class="breadcrumb-list-item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-              <path fill="currentColor" fill-rule="evenodd"
-                d="M9.793 7.793a1 1 0 000 1.414L12.586 12l-2.793 2.793a1 1 0 101.414 1.414l3.5-3.5a1 1 0 000-1.414l-3.5-3.5a1 1 0 00-1.414 0z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <a href="#" class="breadcrumb-link">Doanh Nghiệp</a>
-          </li>
 
-        </ul>
-      </div>
-    </div>
-  </section>
-  <!-- end breadcrumb -->
-  <section class="nav--content ">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-9 col-12 col-sm-6">
-          <div class=" nav--content--text">
-            <h3>Doanh Nghiệp</h3>
-            <p>Sở Y Tế Hà Nội đóng một vai trò tối quan trọng trong việc hỗ trợ doanh nghiệp trong lĩnh vực chăm sóc sức
-              khỏe
-              và y tế Hà Nội. Ngoài ra việc cung cấp thông tin chi tiết về quy định, chính sách và hướng dẫn liên quan
-              đến
-              y
-              tế và dịch vụ chăm sóc sức khỏe,
-              giúp doanh nghiệp hiểu rõ các yêu cầu và quy trình phù hợp.</p>
-            <p>Hỗ trợ xin giấy phép và cấp phép hoạt động trong lĩnh vực y tế là một khía
-              cạnh quan trọng, đảm bảo rằng doanh nghiệp tuân thủ các tiêu chuẩn an toàn và chất lượng. Chúng tôi cung
-              cấp
-              chương trình đào tạo và hướng dẫn về quản lý y tế, cải thiện chất lượng dịch vụ và tuân thủ các quy định y
-              tế.
-              phẩm và dịch vụ.</p>
-            <p>Với việc thường xuyên cập nhật dữ liệu thống kê về sức khỏe cộng đồng, nghiên cứu y tế và xu hướng trong
-              lĩnh
-              vực y tế,
-              giúp doanh nghiệp xây
-              dựng chiến lược phát triển dựa trên thông tin cụ thể.</p>
-            <p>Ngoài ra, thông tin về nguồn tài trợ và hỗ trợ tài chính làm cho doanh nghiệp có cơ hội tham gia vào các
-              dự
-              án và nghiên cứu liên quan đến sức khỏe cộng đồng.
-              Dưới đây là thông tin chúng tôi cung cấp cho Doanh Nghiệp.</p>
-          </div>
-        </div>
-        <div class="col-md-3 col-12 col-sm-6">
-          <div class="nav--content-right">
-            <h3>Đường dẫn nhanh</h3>
-            <div class="nav--content-right__box">
-              <p>Văn phòng Thư ký-Ghi chép</p>
-            </div>
-            <div class="nav--content-right__box">
-              <p>Cơ quan Dịch vụ Nhân sự - HR</p>
-            </div>
-            <div class="nav--content-right__box">
-              <p>Công viên & Giải trí</p>
-            </div>
-            <div class="nav--content-right__box">
-              <p>Phòng Quản chế</p>
-            </div>
-            <div class="nav--content-right__box">
-              <p>Sở Y tế Công cộng</p>
-            </div>
-            <div class="nav--content-right__box">
-              <p>Cơ quan Đăng ký Cử tri</p>
-            </div>
-            <div class="nav--content-right__box">
-              <p>Cơ quan Dịch vụ Xã hội</p>
-            </div>
-            <div class="nav--content-right__box">
-              <p>Trung tâm Y tế </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-  </section>
-  <!-- end content -->
-  <section class="icon--item">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-9 col-sm-12 col-12">
-          <div class="row">
-            <div class="col-md-4 col-sm-12 col-12">
-              <div class="icon--item">
-                <img src="img/clarity_license-solid.png" alt="">
-                <div class="icon--item--ul">
-                  <ul>
-                    <li><a href="">Giấy phép cơ sở nghệ thuật cơ chế</a></li>
-                    <li><a href="">Giấy phép xây dựng</a></li>
-                    <li><a href="">Chợ nông sản được chứng nhận</a></li>
-                    <li><a href="">Tên doanh nghiệp hư cấu</a></li>
-                    <li><a href="">Giấy phép cơ sở thực phẩm</a></li>
-                    <li><a href="">Chứng nhận an toàn thực phẩm</a></li>
-                    <li><a href="">Cơ sở thực phẩm lưu động</a></li>
-                    <li><a href="">Tu sửa cơ sở thực phẩm</a></li>
-                    <li><a href="">Sự kiện tạm thời</a></li>
-                  </ul>
                 </div>
-              </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-12">
-              <div class="icon--item">
-                <img src="img/heroicons_folder-solid.png" alt="">
-                <div class="icon--item--ul">
-                  <ul>
-                    <li><a href="">Báo cáo tài sản kinh doanh</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-12 col-12">
-              <div class="icon--item">
-                <img src="img/ph_handshake-fill.png" alt="">
-                <div class="icon--item--ul">
-                  <ul>
-                    <li><a href="">Tìm hiểu Cách thức Kinh doanh với Sở</a></li>
-                    <li><a href="">Đăng ký với tư cách là Nhà cung cấp của Sở</a></li>
-                    <li><a href="">Tìm kiếm cơ hội kinh doanh hiện tại và tương lai</a></li>
-                    <li><a href="">Đọc các chính sách pháp lý và hành chính về đấu thầu</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-12 col-12">
-              <div class="icon--item">
-                <img src="img/ic_sharp-eco.png" alt="">
-                <div class="icon--item--ul">
-                  <ul>
-                    <li><a href="">Trở thành một doanh nghiệp xan</a></li>
-                    <li><a href="">Quản lý cảnh quan bền vững</a></li>
-                  </ul>
-                </div>
-              </div>
+            <!-- responsive menu -->
+            <!-- <div class="responsive--menu">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+                <i class="fa-solid fa-x" id="close-icon" style="display: none;"></i>
+            </div> -->
+
+            <div class="row header-inner">
+
+                <input type="checkbox" class='nav__input' name="" id="nav__input">
+                <!-- icon bar -->
+                <label for="nav__input" class="nav__bar-btn">
+                    <i class="fa-solid fa-bars" style="font-size: 30px;"></i>
+                </label>
+                <nav class="header--menu menu-header-wrap nav__pc" id="menu-header-wrap">
+                    <ul class="header--menu--menu">
+                        <li><a href="page8.html">Sở y tế <i class="fas fa-angle-down"></i> </a>
+                            <div class="megamenu">
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Đông Bắc Bộ</li>
+                                    <li><a href="#">Hà Giang</a></li>
+                                    <li><a href="#">Tuyên Quang</a></li>
+                                    <li><a href="#">Cao Bằng</a></li>
+                                    <li><a href="#">Bắc Kạn</a></li>
+                                    <li><a href="#">Thái Nguyên</a></li>
+                                    <li><a href="#">Lạng Sơn</a></li>
+                                    <li><a href="#">Bắc Giang</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Tây Bắc Bộc</li>
+                                    <li><a href="#">Hòa Bình</a></li>
+                                    <li><a href="#">Sơn La</a></li>
+                                    <li><a href="#">Điện Biên</a></li>
+                                    <li><a href="#">Lai Châu</a></li>
+                                    <li><a href="#">Lào Cai</a></li>
+                                    <li><a href="#">Yên Bái</a></li>
+                                    
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Đồng bằng sông Hồng</li>
+                                    <li><a href="#">Hà Nội</a></li>
+                                    <li><a href="#">Bắc Ninh</a></li>
+                                    <li><a href="#">Hà Nam</a></li>
+                                    <li><a href="#">Hải Dương</a></li>
+                                    <li><a href="#">Hải Phòng</a></li>
+                                    <li><a href="#">Hưng Yên</a></li>
+                                    <li><a href="#">Nam Định</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Bắc Trung Bộ</li>
+                                    <li><a href="#">Thanh Hóa</a></li>
+                                    <li><a href="#">Nghệ An</a></li>
+                                    <li><a href="#">Hà Tĩnh</a></li>
+                                    <li><a href="#">Quảng Bình</a></li>
+                                    <li><a href="#">Quảng Trị</a></li>
+                                    <li><a href="#">Huế</a></li>
+                                    <li><a href="#">Đà Nẵng</a></li>
+                                </ul>
+                              
+                            
+                            </div>
+                        </li>
+                        <li> <a href="page3.html">Công dân <i class="fas fa-angle-down"></i> </a>
+                            <div class="megamenu">
+                                <ul class="single-mega cn-col-3">
+                                    <li class="title">Công dân 1</li>
+                                    <li><a href="#">sub menu 1.2</a></li>
+                                    <li><a href="#">sub menu 1.3</a></li>
+                                    <li><a href="#">ub menu 1.4</a></li>
+                                    <li><a href="#">sub menu 1.5</a></li>
+                                    <li><a href="#">sub menu 1.6</a></li>
+                                    <li><a href="#">sub menu 1.7</a></li>
+                                    <li><a href="#">sub menu 1.8</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-3">
+                                    <li class="title">Công dân 2</li>
+                                    <li><a href="#">sub menu 1.2</a></li>
+                                    <li><a href="#">sub menu 1.3</a></li>
+                                    <li><a href="#">ub menu 1.4</a></li>
+                                    <li><a href="#">sub menu 1.5</a></li>
+                                    <li><a href="#">sub menu 1.6</a></li>
+                                    <li><a href="#">sub menu 1.7</a></li>
+                                    <li><a href="#">sub menu 1.8</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-3">
+                                    <li class="title">Công dân 3</li>
+                                    <li><a href="#">sub menu 1.2</a></li>
+                                    <li><a href="#">sub menu 1.3</a></li>
+                                    <li><a href="#">ub menu 1.4</a></li>
+                                    <li><a href="#">sub menu 1.5</a></li>
+                                    <li><a href="#">sub menu 1.6</a></li>
+                                    <li><a href="#">sub menu 1.7</a></li>
+                                    <li><a href="#">sub menu 1.8</a></li>
+                                </ul>
+
+                            </div>
+
+
+                        </li>
+                        <li><a href="page3.html">Doanh nghiệp <i class="fas fa-angle-down"></i></a>
+                            <div class="megamenu">
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 1</li>
+                                    <li><a href="#">Doanh nghiệp con 1.1</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.2</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.3</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.4</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.5</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.6</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.7</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 2</li>
+                                    <li><a href="#">Doanh nghiệp con 2.1 </a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.2</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.3</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.4 </a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.5</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.6</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.7</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 3</li>
+                                    <li><a href="#">Bình Thuận</a></li>
+                                    <li><a href="#">Khánh Hóa</a></li>
+                                    <li><a href="#">TP.HCM</a></li>
+                                    <li><a href="#">Bình Phước</a></li>
+                                    <li><a href="#">Bến Tre</a></li>
+                                    <li><a href="#">Vũng Tàu</a></li>
+                                    <li><a href="#">Sóc Trăng</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 4</li>
+                                    <li><a href="#">Đắc lắk</a></li>
+                                    <li><a href="#">Gia Lai</a></li>
+                                    <li><a href="#">Kon Tum</a></li>
+                                    <li><a href="#">Lâm Đồng</a></li>
+                                    <li><a href="#">Đắc Nông</a></li>
+                                    <li><a href="#">Lowa</a></li>
+                                    <li><a href="#">Montana</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="page2.html">Làm thế nào để tôi <i class="fas fa-angle-down"></i></a>
+                            <!-- <div class="megamenu">
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền bắc</li>
+                                    <li><a href="#">Hà Nội</a></li>
+                                    <li><a href="#">Hải Phòng</a></li>
+                                    <li><a href="#">Lai Châu</a></li>
+                                    <li><a href="#">Điện biên</a></li>
+                                    <li><a href="#">Nam Định</a></li>
+                                    <li><a href="#">Bình Định</a></li>
+                                    <li><a href="#">Bắc Ninh</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền Trung</li>
+                                    <li><a href="#">Thanh Hóa</a></li>
+                                    <li><a href="#">Nghệ An</a></li>
+                                    <li><a href="#">Quảng Bình</a></li>
+                                    <li><a href="#">Quảng Trị</a></li>
+                                    <li><a href="#">Huế</a></li>
+                                    <li><a href="#">Đà Nẵng</a></li>
+                                    <li><a href="#">Quảng Ngãi</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền Nam</li>
+                                    <li><a href="#">Bình Thuận</a></li>
+                                    <li><a href="#">Khánh Hóa</a></li>
+                                    <li><a href="#">TP.HCM</a></li>
+                                    <li><a href="#">Bình Phước</a></li>
+                                    <li><a href="#">Bến Tre</a></li>
+                                    <li><a href="#">Vũng Tàu</a></li>
+                                    <li><a href="#">Sóc Trăng</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Tây nguyên</li>
+                                    <li><a href="#">Đắc lắk</a></li>
+                                    <li><a href="#">Gia Lai</a></li>
+                                    <li><a href="#">Kon Tum</a></li>
+                                    <li><a href="#">Lâm Đồng</a></li>
+                                    <li><a href="#">Đắc Nông</a></li>
+                                    <li><a href="#">Lowa</a></li>
+                                    <li><a href="#">Montana</a></li>
+                                </ul>
+                            </div> -->
+                        </li>
+                    </ul>
+                </nav>
+
+                <label for="nav__input" class="nav__overlay">
+                </label>
+                <!-- menu mobile -->
+                <nav class="nav__mobile">
+                    <ul class="nav__mobile-list">
+                        <li><a href="page8.html" class="nav__mobile-link">Sở y tế</a><i class="fa-solid fa-angle-down"></i>
+                            <div class="megamenu--mobile">
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền Trung</li>
+                                    <li><a href="#">Hà Nội</a></li>
+                                    <li><a href="#">Hải Phòng</a></li>
+                                    <li><a href="#">Lai Châu</a></li>
+                                    <li><a href="#">Điện biên</a></li>
+                                    <li><a href="#">Nam Định</a></li>
+                                    <li><a href="#">Bình Định</a></li>
+                                    <li><a href="#">Bắc Ninh</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền Trung</li>
+                                    <li><a href="#">Thanh Hóa</a></li>
+                                    <li><a href="#">Nghệ An</a></li>
+                                    <li><a href="#">Quảng Bình</a></li>
+                                    <li><a href="#">Quảng Trị</a></li>
+                                    <li><a href="#">Huế</a></li>
+                                    <li><a href="#">Đà Nẵng</a></li>
+                                    <li><a href="#">Quảng Ngãi</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền Nam</li>
+                                    <li><a href="#">Bình Thuận</a></li>
+                                    <li><a href="#">Khánh Hóa</a></li>
+                                    <li><a href="#">TP.HCM</a></li>
+                                    <li><a href="#">Bình Phước</a></li>
+                                    <li><a href="#">Bến Tre</a></li>
+                                    <li><a href="#">Vũng Tàu</a></li>
+                                    <li><a href="#">Sóc Trăng</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Tây nguyên</li>
+                                    <li><a href="#">Đắc lắk</a></li>
+                                    <li><a href="#">Gia Lai</a></li>
+                                    <li><a href="#">Kon Tum</a></li>
+                                    <li><a href="#">Lâm Đồng</a></li>
+                                    <li><a href="#">Đắc Nông</a></li>
+                                    <li><a href="#">Lowa</a></li>
+                                    <li><a href="#">Montana</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="page3.html" class="nav__mobile-link">Công dân </a><i class="fa-solid fa-angle-down"></i>
+                            <div class="megamenu--mobile">
+                                <ul class="single-mega cn-col-3">
+                                    <li class="title">Công dân 1</li>
+                                    <li><a href="#">sub menu 1.2</a></li>
+                                    <li><a href="#">sub menu 1.3</a></li>
+                                    <li><a href="#">ub menu 1.4</a></li>
+                                    <li><a href="#">sub menu 1.5</a></li>
+                                    <li><a href="#">sub menu 1.6</a></li>
+                                    <li><a href="#">sub menu 1.7</a></li>
+                                    <li><a href="#">sub menu 1.8</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-3">
+                                    <li class="title">Công dân 2</li>
+                                    <li><a href="#">sub menu 1.2</a></li>
+                                    <li><a href="#">sub menu 1.3</a></li>
+                                    <li><a href="#">ub menu 1.4</a></li>
+                                    <li><a href="#">sub menu 1.5</a></li>
+                                    <li><a href="#">sub menu 1.6</a></li>
+                                    <li><a href="#">sub menu 1.7</a></li>
+                                    <li><a href="#">sub menu 1.8</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-3">
+                                    <li class="title">Công dân 3</li>
+                                    <li><a href="#">sub menu 1.2</a></li>
+                                    <li><a href="#">sub menu 1.3</a></li>
+                                    <li><a href="#">ub menu 1.4</a></li>
+                                    <li><a href="#">sub menu 1.5</a></li>
+                                    <li><a href="#">sub menu 1.6</a></li>
+                                    <li><a href="#">sub menu 1.7</a></li>
+                                    <li><a href="#">sub menu 1.8</a></li>
+                                </ul>
+
+                            </div>
+                        </li>
+                        <li><a href="page3.html" class="nav__mobile-link">Doanh nghiệp </a><i class="fa-solid fa-angle-down"></i>
+                            <div class="megamenu--mobile">
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 1</li>
+                                    <li><a href="#">Doanh nghiệp con 1.1</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.2</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.3</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.4</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.5</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.6</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.7</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 2</li>
+                                    <li><a href="#">Doanh nghiệp con 2.1 </a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.2</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.3</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.4 </a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.5</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.6</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.7</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 3</li>
+                                    <li><a href="#">Bình Thuận</a></li>
+                                    <li><a href="#">Khánh Hóa</a></li>
+                                    <li><a href="#">TP.HCM</a></li>
+                                    <li><a href="#">Bình Phước</a></li>
+                                    <li><a href="#">Bến Tre</a></li>
+                                    <li><a href="#">Vũng Tàu</a></li>
+                                    <li><a href="#">Sóc Trăng</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 4</li>
+                                    <li><a href="#">Đắc lắk</a></li>
+                                    <li><a href="#">Gia Lai</a></li>
+                                    <li><a href="#">Kon Tum</a></li>
+                                    <li><a href="#">Lâm Đồng</a></li>
+                                    <li><a href="#">Đắc Nông</a></li>
+                                    <li><a href="#">Lowa</a></li>
+                                    <li><a href="#">Montana</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="page2.html" class="nav__mobile-link">Làm thế nào để tôi </a><i class="fa-solid fa-angle-down"></i></li>
+                    </ul>
+
+                    <!-- icon X -->
+                    <label for="nav__input" class="nav__mobile-btn">
+                        <i class="fa-solid fa-x" style="font-size: 25px;"></i>
+                    </label>
+                </nav>
+                </label>
+
             </div>
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end icon-item -->
-  <section class="button--item">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="button--item__button">
-            <button><i class="fas fa-play"></i> Báo cáo sự cố trên trang này</button>
-            <button><i class="fas fa-share-square"></i> Chia sẽ trang này</button>
 
-          </div>
-        </div>
-      </div>
-      <!-- text -->
-      <div class="row">
-        <div class="col-md-12">
-          <div class="button--item__text">
-            <p>Ngày sửa đổi: 2023-08-09</p>
 
-          </div>
+
+            <!-- end header -->
+
+
         </div>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <div class="container">
-      <div class="footer">
-        <div class="row">
-          <div class="col-md-2 col-12 col-sm-6">
-            <div class="footer--logo">
-              <img src="img/image 88.png" alt="">
+        </div>
+    </header>
+    <!-- end header -->
+    <section class="banner">
+        <!-- <div class="container-fluid"> -->
+        <div class="card text-white" style="border: none;">
+            <img src="img/image 9.png" alt="">
+            <div class="" style="position: absolute;bottom: 0;left: 0;">
+
+
+                <div class="p-5  bg--slider--banner shadow">
+                    <!-- Bootstrap carousel-->
+                    <div class="carousel slide" id="carouselExampleIndicators" data-ride="carousel">
+                        <!-- Bootstrap carousel indicators [nav] -->
+                        <ol class="carousel-indicators mb-0">
+                            <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Bootstrap inner [slides]-->
+                        <div class="carousel-inner">
+                            <!-- Carousel slide-->
+                            <div class="carousel-item active">
+                                <div class="media">
+                                    <div class="media-body ">
+
+                                        <p class="font--no"> <i class="fa fa-quote-left mr-3 text-success">
+                                            </i>Hà Nội tập trung toàn diện cho cong tác phòng chống dịch bệnh sốt xuất
+                                            huyết</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel slide-->
+                            <div class="carousel-item">
+                                <div class="media">
+                                    <div class="media-body ">
+
+                                        <p class="font--no"> <i class="fa fa-quote-left mr-3 text-success">
+                                            </i>Hà Nội tổ chức tiêm bù vaccine cho trẻ tại cơ sở giáo dục mầm non, tiểu
+                                            học</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Carousel slide-->
+                            <div class="carousel-item">
+                                <div class="media">
+                                    <div class="media-body ">
+
+                                        <p class="font--no "> <i class="fa fa-quote-left mr-3 text-success"></i>Người
+                                            bệnh là trung tâm, các bệnh viện công của Hà Nội đều phải chuyển mình</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Bootstrap controls [dots]-->
+                        <!-- <a class="carousel-control-prev width-auto" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <i class="fa fa-angle-left text-dark text-lg"></i>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next width-auto" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <i class="fa fa-angle-right text-dark text-lg"></i>
+                                    <span class="sr-only">Next</span>
+                                </a> -->
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-10 col-12 col-sm-6">
+
+
+
+        </div>
+
+
+
+    </section>
+
+    <!-- end banner -->
+    <section class="slick--item--home">
+        <div class="container">
+            <div class="nav--content--slider">
+                <div class="row filtering5">
+                    <div class="col-md-12 col-md-12 col-12">
+
+                        <div class="div--card--box text-center">
+                            <a href="page14.html">
+                                <div class="content--slider--img">
+                                    <img src="img/app.png" style="width: 45px ;margin: 0 auto;" alt="">
+                                </div>
+                                <h5 class="">Tra cứu hồ sơ</h5>
+                                <p class="mb-md-0">Get your blood tests delivered at home collect a</p>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-md-12 col-12">
+                        <div class="div--card--box text-center">
+                            <a href="page18.html">
+                                <div class="content--slider--img">
+                                    <img src="img/ux.png" style="width: 45px ;margin: 0 auto;" alt="">
+                                </div>
+                                <h5 class="">Phản ánh kiến nghị</h5>
+                                <p class="mb-md-0">Get your blood tests delivered at home collect a</p>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-md-12 col-12">
+                        <div class="div--card--box text-center">
+                            <a href="/page19.html">
+                                <div class="content--slider--img">
+                                    <img src="img/cloud.png" style="width: 45px ;margin: 0 auto;" alt="">
+                                </div>
+                                <h5 class="">Đặt lịch hẹn</h5>
+                                <p class="mb-md-0">Get your blood tests delivered at home collect a</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-md-12 col-12">
+                        <div class="div--card--box text-center">
+                            <a href="page10.html">
+                                <div class="content--slider--img">
+                                    <img src="img/customization.png" style="width: 45px ;margin: 0 auto;" alt="">
+                                </div>
+                                <h5 class="">Phòng khám</h5>
+                                <p class="mb-md-0">Get your blood tests delivered at home collect a</p>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-md-12 col-12">
+                        <div class="div--card--box text-center">
+                            <a href="page12.html">
+                                <div class="content--slider--img">
+                                    <img src="img/streamline_money-cash-dollar-coin-accounting-billing-payment-cash-coin-currency-money-finance.png"
+                                        style="width: 45px ;margin: 0 auto;" alt="">
+                                </div>
+                                <h5 class="">Cảnh báo & thu hồi</h5>
+                                <p class="mb-md-0">Get your blood tests delivered at home collect a</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-md-12 col-12">
+                        <div class="div--card--box text-center">
+                            <a href="#">
+                                <div class="content--slider--img">
+                                    <img src="img/app.png" style="width: 45px ;margin: 0 auto;" alt="">
+                                </div>
+                                <h5 class="">Tra cứu hồ sơ</h5>
+                                <p class="mb-md-0">Get your blood tests delivered at home collect a</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-md-12 col-12">
+                        <div class="div--card--box text-center">
+                            <a href="#">
+
+                                <div class="content--slider--img">
+                                    <img src="img/app.png" style="width: 45px ;margin: 0 auto;" alt="">
+                                </div>
+                                <h5 class="">Tra cứu hồ sơ</h5>
+                                <p class="mb-md-0">Get your blood tests delivered at home collect a</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-md-12 col-12">
+                        <div class="div--card--box text-center">
+                            <a href="#">
+
+                                <div class="content--slider--img">
+                                    <img src="img/app.png" style="width: 45px ;margin: 0 auto;" alt="">
+                                </div>
+                                <h5 class="">Tra cứu hồ sơ</h5>
+                                <p class="mb-md-0">Get your blood tests delivered at home collect a</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- end slick item -->
+
+    <section class="dichvu--thongtin">
+        <div class="container">
             <div class="row">
-              <div class="col-md-3 col-6 col-sm-6">
-                <h4>Menu</h4>
-                <ul>
-                  <li><a href="">Câu hỏi thường gặp</a></li>
-                  <li><a href="">Công dân</a></li>
-                  <li><a href="">Doanh nghiệp</a></li>
-                  <li><a href="">Sở y tế</a></li>
-
-                </ul>
-              </div>
-              <div class="col-md-3 col-6 col-sm-6">
-                <h4>ĐIỀU KHOẢN</h4>
-                <ul>
-                  <li><a href="">Khả năng tiếp cận</a></li>
-                  <li><a href="">Chính sách liên kết</a></li>
-                  <li><a href="">Chính sách bảo mật</a></li>
-                  <li><a href="">Điều khoản sử dụng</a></li>
-
-                </ul>
-              </div>
-              <div class="col-md-3 col-6 col-sm-6">
-                <h4>VỀ CƠ SỞ Y TẾ</h4>
-                <ul>
-                  <li><a href="">Cơ quan & ban ngành</a></li>
-                  <li><a href="">Liên hệ</a></li>
-                  <li><a href="">Ngày lễ</a></li>
-                  <li><a href="">Tòa soạn</a></li>
-
-                </ul>
-              </div>
-              <div class="col-md-3 col-6 col-sm-6">
-                <h4>LIÊN HỆ</h4>
-                <ul class="footer--ul__last">
-                  <li><a href=""><img src="img/mdi_facebook.png" alt=""></a></li>
-                  <li><a href=""><img src="img/mdi_linkedin.png" alt=""></a></li>
-                  <li><a href=""><img src="img/basil_instagram-solid.png" alt=""></a></li>
-                </ul>
-              </div>
+                <div class="col-md-12">
+                    <h4 class="dichvu--thongtin--h4">Dịch vụ thông tin</h4>
+                </div>
             </div>
-          </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="vertical--slider">
+                        <div class="slider--home dichvu--icon dichvu--icon1" id="up-slider">
+                            <i class="fas fa-chevron-up"></i>
+                        </div>
+                        <div class="items" id="item-container">
+
+                            <ul class="nav nav-tabs" id="ul--dichvu" role="tablist">
+                                <li class="nav-item">
+                                    <a class=" active" id="home-tab" data-toggle="tab" href="#thucpham" role="tab"
+                                        aria-controls="home" aria-selected="true">Thực phẩm và dinh dưỡng</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="" id="profile-tab" data-toggle="tab" href="#thuocsp" role="tab"
+                                        aria-controls="profile" aria-selected="false">Thuốc và sản phẩm sức khỏe</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="" id="contact-tab" data-toggle="tab" href="#vacxin" role="tab"
+                                        aria-controls="contact" aria-selected="false">Vắc xin và tiêm chủng</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="" id="contact-tab" data-toggle="tab" href="#benhtat" role="tab"
+                                        aria-controls="contact" aria-selected="false">Bệnh tật và triệu chứng</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="" id="contact-tab" data-toggle="tab" href="#hethongyte" role="tab"
+                                        aria-controls="contact" aria-selected="false">Hệ thống y tế và dịch vụ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="" id="contact-tab" data-toggle="tab" href="#antoansp" role="tab"
+                                        aria-controls="contact" aria-selected="false">An toàn và sản phẩm</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="" id="contact-tab" data-toggle="tab" href="#loisonglanhmanh" role="tab"
+                                        aria-controls="contact" aria-selected="false">Lối sống lành mạnh</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="" id="contact-tab" data-toggle="tab" href="#khohocnghiencuu" role="tab"
+                                        aria-controls="contact" aria-selected="false">Khoa học, nghiên cứu và dữ
+                                        liệu</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slider--home dichvu--icon dichvu--icon2" id="down-slider">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-8 col-sm-6 col-12">
+                    <div class="border--text--right">
+                        <div class="border--text__box">
+                            <div class="tab-content" id="myTabsContent">
+                                <div class="tab-pane fade show active" id="thucpham" role="tabpanel"
+                                    aria-labelledby="home-tab">
+                                    <h3>Thực phẩm và dinh dưỡng</h3>
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class="col-md-4">
+                                            <div class="text--scroll--border">
+                                                <ul>
+                                                    <li><a href="page4.html">Hướng dẫn thực phẩm về Việt Nam</a></li>
+                                                    <li><a href="page4.html">Nhãn hiệu</a></li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="text--scroll--border">
+                                                <ul>
+                                                    <li><a href="page4.html">Nghiên cứu dinh dưỡng</a></li>
+                                                    <li><a href="page4.html">Thu hồi và tiêu chuẩn an toàn</a></li>
+                                                </ul>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="text--scroll--border text--no--border">
+                                                <ul>
+                                                    <li><a href="page4.html">Ăn uống lành mạnh</a></li>
+                                                    <li><a href="page4.html">Thực phẩm bổ sung</a></li>
+                                                </ul>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="thuocsp" role="tabpanel" aria-labelledby="profile-tab">
+                                    <h3>Thuốc và sản phẩm sức khỏe</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reiciendis
+                                        provident quam quisquam ad, voluptate eum nesciunt, praesentium pariatur
+                                        repellendus ab ratione impedit? Nulla esse mollitia repellendus necessitatibus
+                                        officia voluptate!
+                                        Error illo quod animi? Hic temporibus laborum iste placeat esse, neque fugiat
+                                        animi facilis incidunt id repellendus ipsam accusamus adipisci vero. Impedit
+                                        esse obcaecati quibusdam ea. Incidunt culpa repudiandae rerum.
+                                        Dignissimos consequatur placeat veniam aliquam. Atque officia consectetur in,
+                                        impedit itaque libero neque minus vero ducimus. Inventore consequuntur mollitia
+                                        natus adipisci ipsa magnam! Ullam rerum laboriosam recusandae iure atque fuga?
+                                        Cumque odit dolorum accusantium! Perferendis rerum, minus inventore voluptatibus
+                                        quaerat, eaque nam a tempora voluptas quibusdam ad sapiente ab iste beatae id
+                                        suscipit molestias, qui velit nulla doloremque soluta laudantium!
+                                        Aperiam ducimus sint nemo repellendus architecto. Sequi dolores consectetur
+                                        nobis, soluta illo natus dicta incidunt ipsa mollitia nostrum doloribus ducimus
+                                        in eum accusamus rerum fuga minus optio facere quam obcaecati!
+                                        Minima a quaerat iure dignissimos natus ratione, quos vitae, provident rerum
+                                        adipisci magni porro reiciendis corrupti. Ad debitis blanditiis, dignissimos
+                                        nobis inventore ex in repudiandae, quis corrupti recusandae numquam sequi!
+                                        Nisi id recusandae autem sapiente ullam consequatur aut dolore, sint suscipit
+                                        cupiditate, nobis eveniet magni praesentium odio sed aperiam maxime, iure
+                                        molestias quisquam. Alias vel accusantium a, quas totam delectus.
+                                        Sunt deserunt odit corrupti placeat dolor similique consequatur nam itaque eius
+                                        quibusdam incidunt suscipit cumque, nemo voluptas fuga quaerat provident
+                                        accusamus maiores mollitia sint quas recusandae doloribus ducimus? Consequatur,
+                                        dolorem!
+                                        Laboriosam ab sunt, eaque earum error soluta. Qui at amet quaerat quidem harum
+                                        dolorem modi ullam. Blanditiis aliquam doloribus, dolore magnam dolor deserunt
+                                        provident eligendi. Non quia quo vitae modi?
+                                        Atque quasi architecto, tempore veritatis aperiam harum cupiditate reiciendis
+                                        tenetur accusamus reprehenderit, soluta, repellat laudantium praesentium facere
+                                        iste voluptatibus! Sit maiores ducimus tempora nihil sed illo non ipsa error
+                                        voluptas?
+                                        Tempora laudantium maiores adipisci accusamus tenetur nihil deleniti cum.
+                                        Recusandae ratione itaque totam quod aliquam magni placeat et doloribus nam
+                                        perferendis error, culpa eos atque molestias maiores laudantium, amet quae.
+                                        Est tenetur quas adipisci debitis odit aut, labore ad laudantium commodi!
+                                        Aperiam alias quibusdam optio. Quos similique blanditiis nam cum fuga atque unde
+                                        perferendis odit? Enim explicabo reprehenderit ut consectetur.
+                                        Numquam velit aliquam voluptate quis nemo labore quo? In iure ab perspiciatis
+                                        minus quidem tempore culpa repellat voluptatum? Voluptatum aliquam laboriosam
+                                        necessitatibus rem est ratione, error aliquid! Totam, maiores saepe.
+                                        Nostrum ipsam quasi aut temporibus consequuntur et totam deserunt. In
+                                        exercitationem, error quaerat eligendi sequi ipsa adipisci eius laborum ut
+                                        tenetur. Laboriosam illo sit accusantium modi mollitia, voluptatibus repudiandae
+                                        officia.
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade" id="vacxin" role="tabpanel" aria-labelledby="profile-tab">
+                                    <h3>Vắc xin và tiêm chủng</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reiciendis
+                                        provident quam quisquam ad, voluptate eum nesciunt, praesentium pariatur
+                                        repellendus ab ratione impedit? Nulla esse mollitia repellendus necessitatibus
+                                        officia voluptate!
+                                        Error illo quod animi? Hic temporibus laborum iste placeat esse, neque fugiat
+                                        animi facilis incidunt id repellendus ipsam accusamus adipisci vero. Impedit
+                                        esse obcaecati quibusdam ea. Incidunt culpa repudiandae rerum.
+                                        Dignissimos consequatur placeat veniam aliquam. Atque officia consectetur in,
+                                        impedit itaque libero neque minus vero ducimus. Inventore consequuntur mollitia
+                                        natus adipisci ipsa magnam! Ullam rerum laboriosam recusandae iure atque fuga?
+                                        Cumque odit dolorum accusantium! Perferendis rerum, minus inventore voluptatibus
+                                        quaerat, eaque nam a tempora voluptas quibusdam ad sapiente ab iste beatae id
+                                        suscipit molestias, qui velit nulla doloremque soluta laudantium!
+                                        Aperiam ducimus sint nemo repellendus architecto. Sequi dolores consectetur
+                                        nobis, soluta illo natus dicta incidunt ipsa mollitia nostrum doloribus ducimus
+                                        in eum accusamus rerum fuga minus optio facere quam obcaecati!
+                                        Minima a quaerat iure dignissimos natus ratione, quos vitae, provident rerum
+                                        adipisci magni porro reiciendis corrupti. Ad debitis blanditiis, dignissimos
+                                        nobis inventore ex in repudiandae, quis corrupti recusandae numquam sequi!
+                                        Nisi id recusandae autem sapiente ullam consequatur aut dolore, sint suscipit
+                                        cupiditate, nobis eveniet magni praesentium odio sed aperiam maxime, iure
+                                        molestias quisquam. Alias vel accusantium a, quas totam delectus.
+                                        Sunt deserunt odit corrupti placeat dolor similique consequatur nam itaque eius
+                                        quibusdam incidunt suscipit cumque, nemo voluptas fuga quaerat provident
+                                        accusamus maiores mollitia sint quas recusandae doloribus ducimus? Consequatur,
+                                        dolorem!
+                                        Laboriosam ab sunt, eaque earum error soluta. Qui at amet quaerat quidem harum
+                                        dolorem modi ullam. Blanditiis aliquam doloribus, dolore magnam dolor deserunt
+                                        provident eligendi. Non quia quo vitae modi?
+                                        Atque quasi architecto, tempore veritatis aperiam harum cupiditate reiciendis
+                                        tenetur accusamus reprehenderit, soluta, repellat laudantium praesentium facere
+                                        iste voluptatibus! Sit maiores ducimus tempora nihil sed illo non ipsa error
+                                        voluptas?</p>
+                                </div>
+                                <div class="tab-pane fade" id="benhtat" role="tabpanel" aria-labelledby="contact-tab">
+                                    <h3>Bệnh tật và triệu chứng</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reiciendis
+                                        provident quam quisquam ad, voluptate eum nesciunt, praesentium pariatur
+                                        repellendus ab ratione impedit? Nulla esse mollitia repellendus necessitatibus
+                                        officia voluptate!
+                                        Error illo quod animi? Hic temporibus laborum iste placeat esse, neque fugiat
+                                        animi facilis incidunt id repellendus ipsam accusamus adipisci vero. Impedit
+                                        esse obcaecati quibusdam ea. Incidunt culpa repudiandae rerum.
+                                        Dignissimos consequatur placeat veniam aliquam. Atque officia consectetur in,
+                                        impedit itaque libero neque minus vero ducimus. Inventore consequuntur mollitia
+                                        natus adipisci ipsa magnam! Ullam rerum laboriosam recusandae iure atque fuga?
+                                        Cumque odit dolorum accusantium! Perferendis rerum, minus inventore voluptatibus
+                                        quaerat, eaque nam a tempora voluptas quibusdam ad sapiente ab iste beatae id
+                                        suscipit molestias, qui velit nulla doloremque soluta laudantium!</p>
+                                </div>
+                                <div class="tab-pane fade" id="hethongyte" role="tabpanel"
+                                    aria-labelledby="contact-tab">
+                                    <h3>Hệ thống y tế và dịch vụ</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reiciendis
+                                        provident quam quisquam ad, voluptate eum nesciunt, praesentium pariatur
+                                        repellendus ab ratione impedit? Nulla esse mollitia repellendus necessitatibus
+                                        officia voluptate!
+                                        Error illo quod animi? Hic temporibus laborum iste placeat esse, neque fugiat
+                                        animi facilis incidunt id repellendus ipsam accusamus adipisci vero. Impedit
+                                        esse obcaecati quibusdam ea. Incidunt culpa repudiandae rerum.
+                                        Dignissimos consequatur placeat veniam aliquam. Atque officia consectetur in,
+                                        impedit itaque libero neque minus vero ducimus. Inventore consequuntur mollitia
+                                        natus adipisci ipsa magnam! Ullam rerum laboriosam recusandae iure atque fuga?
+                                        Cumque odit dolorum accusantium! Perferendis rerum, minus inventore voluptatibus
+                                        quaerat, eaque nam a tempora voluptas quibusdam ad sapiente ab iste beatae id
+                                        suscipit molestias, qui velit nulla doloremque soluta laudantium!</p>
+                                </div>
+                                <div class="tab-pane fade" id="antoansp" role="tabpanel" aria-labelledby="contact-tab">
+                                    <h3>An toàn và sản phẩm</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reiciendis
+                                        provident quam quisquam ad, voluptate eum nesciunt, praesentium pariatur
+                                        repellendus ab ratione impedit? Nulla esse mollitia repellendus necessitatibus
+                                        officia voluptate!
+                                        Error illo quod animi? Hic temporibus laborum iste placeat esse, neque fugiat
+                                        animi facilis incidunt id repellendus ipsam accusamus adipisci vero. Impedit
+                                        esse obcaecati quibusdam ea. Incidunt culpa repudiandae rerum.
+                                        Dignissimos consequatur placeat veniam aliquam. Atque officia consectetur in,
+                                        impedit itaque libero neque minus vero ducimus. Inventore consequuntur mollitia
+                                        natus adipisci ipsa magnam! Ullam rerum laboriosam recusandae iure atque fuga?
+                                        Cumque odit dolorum accusantium! Perferendis rerum, minus inventore voluptatibus
+                                        quaerat, eaque nam a tempora voluptas quibusdam ad sapiente ab iste beatae id
+                                        suscipit molestias, qui velit nulla doloremque soluta laudantium!</p>
+                                </div>
+                                <div class="tab-pane fade" id="loisonglanhmanh" role="tabpanel"
+                                    aria-labelledby="contact-tab">
+                                    <h3>Lối sống lành mạnh</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reiciendis
+                                        provident quam quisquam ad, voluptate eum nesciunt, praesentium pariatur
+                                        repellendus ab ratione impedit? Nulla esse mollitia repellendus necessitatibus
+                                        officia voluptate!
+                                        Error illo quod animi? Hic temporibus laborum iste placeat esse, neque fugiat
+                                        animi facilis incidunt id repellendus ipsam accusamus adipisci vero. Impedit
+                                        esse obcaecati quibusdam ea. Incidunt culpa repudiandae rerum.
+                                        Dignissimos consequatur placeat veniam aliquam. Atque officia consectetur in,
+                                        impedit itaque libero neque minus vero ducimus. Inventore consequuntur mollitia
+                                        natus adipisci ipsa magnam! Ullam rerum laboriosam recusandae iure atque fuga?
+                                        Cumque odit dolorum accusantium! Perferendis rerum, minus inventore voluptatibus
+                                        quaerat, eaque nam a tempora voluptas quibusdam ad sapiente ab iste beatae id
+                                        suscipit molestias, qui velit nulla doloremque soluta laudantium!</p>
+                                </div>
+                                <div class="tab-pane fade" id="khohocnghiencuu" role="tabpanel"
+                                    aria-labelledby="contact-tab">
+                                    <h3>Khoa học, nghiên cứu và dữ
+                                        liệu</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reiciendis
+                                        provident quam quisquam ad, voluptate eum nesciunt, praesentium pariatur
+                                        repellendus ab ratione impedit? Nulla esse mollitia repellendus necessitatibus
+                                        officia voluptate!
+                                        Error illo quod animi? Hic temporibus laborum iste placeat esse, neque fugiat
+                                        animi facilis incidunt id repellendus ipsam accusamus adipisci vero. Impedit
+                                        esse obcaecati quibusdam ea. Incidunt culpa repudiandae rerum.
+                                        Dignissimos consequatur placeat veniam aliquam. Atque officia consectetur in,
+                                        impedit itaque libero neque minus vero ducimus. Inventore consequuntur mollitia
+                                        natus adipisci ipsa magnam! Ullam rerum laboriosam recusandae iure atque fuga?
+                                        Cumque odit dolorum accusantium! Perferendis rerum, minus inventore voluptatibus
+                                        quaerat, eaque nam a tempora voluptas quibusdam ad sapiente ab iste beatae id
+                                        suscipit molestias, qui velit nulla doloremque soluta laudantium!</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--  -->
+    <section class="box--canbo">
+        <div class="container">
+            <div class="xem--canbo">
+                <h4>Cán bộ đương nhiệm</h4>
+
+                <div class="xem--canbo--all">
+                    <a href="">Xem tất cả <i class="fa-solid fa-chart-line"></i></a>
+                </div>
+
+            </div>
+            <div class="xem--canbo--p">
+                <ul class="nav nav-tabs" id="myTabs" role="tablist" style="display: block;">
+                    <li class="nav-item">
+                        <a class=" active" id="home-tab" data-toggle="tab" href="#bangiamdoc" role="tab"
+                            aria-controls="home" aria-selected="true">Ban giám đốc</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="" id="profile-tab" data-toggle="tab" href="#nhanvienyte" role="tab"
+                            aria-controls="profile" aria-selected="false">Nhân viên</a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+
         </div>
-      </div>
-    </div>
-  </footer>
-  <script src="js/jquery-3.4.1.slim.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <!--  JS fontawesome -->
-  <script src="js/all.js"></script>
+        <!-- slider slick cán bộ -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-12">
+                </div>
+                <div class="col-md-8 col-sm-6 col-12">
+                    <div class="tab-content" id="myTabsCanbo">
+                        <div class="tab-pane fade show active" id="bangiamdoc" role="tabpanel"
+                            aria-labelledby="home-tab">
+                            <div class="canbo--slider">
+                                <div class="row filtering4">
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <a href="page7.html">
+                                                <img class="card-img-top" src="img/Rectangle 6.png"
+                                                    alt="Card image cap">
+                                                <div class="card-body text-center">
+                                                    <p class="card-text">Giám đốc sở y tế</p>
+                                                    <h5 class="card-text">Trần Thị Hà</h5>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Phó giám đốc</p>
+                                                <h5 class="card-text">Nguyễn Đình Hưng</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Phó giám đốc</p>
+                                                <h5 class="card-text">Trần Văn Chung</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Giám đốc sở y tế</p>
+                                                <h5 class="card-text">Trần Thị Hà</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Giám đốc sở y tế</p>
+                                                <h5 class="card-text">Trần Thị Hà</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Giám đốc sở y tế</p>
+                                                <h5 class="card-text">Trần Thị Hà</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Giám đốc sở y tế</p>
+                                                <h5 class="card-text">Trần Thị Hà</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nhanvienyte" role="tabpanel" aria-labelledby="profile-tab">
+                            <!-- <div class="canbo--slider">
+                                <div class="row filtering4">
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <a href="page7.html">
+                                                <img class="card-img-top" src="img/Rectangle 6.png"
+                                                    alt="Card image cap">
+                                                <div class="card-body text-center">
+                                                    <p class="card-text">Giám đốc sở y tế</p>
+                                                    <h5 class="card-text">Trần Thị Hà</h5>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Phó giám đốc</p>
+                                                <h5 class="card-text">Nguyễn Đình Hưng</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Phó giám đốc</p>
+                                                <h5 class="card-text">Trần Văn Chung</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Giám đốc sở y tế</p>
+                                                <h5 class="card-text">Trần Thị Hà</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Giám đốc sở y tế</p>
+                                                <h5 class="card-text">Trần Thị Hà</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Giám đốc sở y tế</p>
+                                                <h5 class="card-text">Trần Thị Hà</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Giám đốc sở y tế</p>
+                                                <h5 class="card-text">Trần Thị Hà</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- <h3>Contact Tab</h3>
+                                <p>This is the content of the Contact tab.</p> -->
+                            <div class="canbo--slider">
+                                <div class="row filtering4">
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <a href="page7.html">
+                                                <img class="card-img-top" src="img/Rectangle 6.png"
+                                                    alt="Card image cap">
+                                                <div class="card-body text-center">
+                                                    <p class="card-text">Nhân viên</p>
+                                                    <h5 class="card-text">Trần Thị Hà</h5>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Nhân viên</p>
+                                                <h5 class="card-text">Nguyễn Đình Hưng</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Nhân viên</p>
+                                                <h5 class="card-text">Trần Văn Chung</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Nhân viên</p>
+                                                <h5 class="card-text">Trần Thị Hà</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Nhân viên</p>
+                                                <h5 class="card-text">Trần Thị Hà</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Nhân viên</p>
+                                                <h5 class="card-text">Trần Thị Hà</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-md-12 col-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="img/Rectangle 6.png" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">Nhân viên</p>
+                                                <h5 class="card-text">Trần Thị Hà</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end header -->
+    <section class="banner banner2">
+        <!-- <div class="container-fluid"> -->
+        <div class="container">
+            <div class="card " style="border: none;">
+                <img src="img/timkiem.avif" style="height: 400px;">
+                <div class="all-nosubmit">
+                    <h3>Tìm kiếm thông tin quận</h3>
+                    <form class="nosubmit">
+                        <input class="nosubmit" type="search" placeholder="Tìm kiếm thông tin quận...">
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!-- </div> -->
+    </section>
+    <!-- end banner -->
+    <section class="FQ--home">
+        <div class="container">
+            <div class="FAQ">
+                <div class="section-faq section-faq-desktop container" data-v-e5c40206="">
+                    <div class="section-title">Chính quyền thành phố</div>
+                    <div class="section-content">
+                        <div class="section-content-collapse klk-collapse klk-collapse-small">
+                            <div class="collapse-item klk-collapse-item">
+                                <div class="klk-collapse-item-main-toggle">
+                                    <div class="klk-collapse-item-header">
+                                        <div class="klk-collapse-item-header-inner">
+
+                                            <div class="klk-collapse-item-title-wrapper">
+                                                <div class="klk-collapse-item-title home--klk">
+                                                    <h5>Đăng ký cuộc hẹn tư vấn</h5>
+                                                </div>
+                                            </div>
+                                            <i class="toggle-icon fa-solid fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                    <div class="klk-collapse-item-content">
+                                        <div class="klk-collapse-item-content-inner">
+                                            <div class="klk-markdown-backgroud klk-markdown-backgroud--highlight">
+                                                <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h5>
+                                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
+                                                    cupiditate praesentium quam earum ex dignissimos nemo porro iusto
+                                                    omnis quibusdam fuga eos culpa officia ad necessitatibus aut, sed
+                                                    doloribus consectetur?
+                                                    Ratione tempora laborum alias earum eos dolorum sapiente voluptates
+                                                    quam vero magni dignissimos molestiae nobis suscipit repellat
+                                                    dolorem officiis unde, fugiat sunt sed nihil rem velit. Deserunt
+                                                    veniam delectus repellendus.
+                                                    Iure eligendi omnis recusandae doloribus consequatur veritatis
+                                                    inventore voluptatem reprehenderit alias tempore dolor voluptate
+                                                    iste rerum deserunt, incidunt aut, voluptas facilis consectetur
+                                                    dicta. Perspiciatis id eos minima corporis neque doloremque!
+                                                    Nulla, facilis quo. Quam expedita et recusandae quisquam, voluptate
+                                                    in quo ad animi sed voluptatibus blanditiis libero cum temporibus
+                                                    odit dolore possimus rem corrupti rerum excepturi earum tempora
+                                                    tenetur! Vitae.
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collapse-item klk-collapse-item">
+                                <div class="klk-collapse-item-main-toggle">
+                                    <div class="klk-collapse-item-header">
+                                        <div class="klk-collapse-item-header-inner">
+
+                                            <div class="klk-collapse-item-title-wrapper">
+                                                <div class="klk-collapse-item-title home--klk">
+                                                    <h5>Ban và ủy ban</h5>
+                                                </div>
+                                            </div>
+                                            <i class="toggle-icon fa-solid fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                    <div class="klk-collapse-item-content">
+                                        <div class="klk-collapse-item-content-inner">
+                                            <div class="klk-markdown-backgroud klk-markdown-backgroud--highlight">
+                                                <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h5>
+                                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
+                                                    cupiditate praesentium quam earum ex dignissimos nemo porro iusto
+                                                    omnis quibusdam fuga eos culpa officia ad necessitatibus aut, sed
+                                                    doloribus consectetur?
+                                                    Ratione tempora laborum alias earum eos dolorum sapiente voluptates
+                                                    quam vero magni dignissimos molestiae nobis suscipit repellat
+                                                    dolorem officiis unde, fugiat sunt sed nihil rem velit. Deserunt
+                                                    veniam delectus repellendus.
+                                                    Iure eligendi omnis recusandae doloribus consequatur veritatis
+                                                    inventore voluptatem reprehenderit alias tempore dolor voluptate
+                                                    iste rerum deserunt, incidunt aut, voluptas facilis consectetur
+                                                    dicta. Perspiciatis id eos minima corporis neque doloremque!
+                                                    Nulla, facilis quo. Quam expedita et recusandae quisquam, voluptate
+                                                    in quo ad animi sed voluptatibus blanditiis libero cum temporibus
+                                                    odit dolore possimus rem corrupti rerum excepturi earum tempora
+                                                    tenetur! Vitae.
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collapse-item klk-collapse-item">
+                                <div class="klk-collapse-item-main-toggle">
+                                    <div class="klk-collapse-item-header">
+                                        <div class="klk-collapse-item-header-inner">
+
+
+                                            <div class="klk-collapse-item-title-wrapper">
+                                                <div class="klk-collapse-item-title home--klk">
+                                                    <h5>Báo cáo chương trình ngoài nghị sự</h5>
+                                                </div>
+                                            </div>
+                                            <i class="toggle-icon fa-solid fa-chevron-down"></i>
+
+                                        </div>
+                                    </div>
+                                    <div class="klk-collapse-item-content">
+                                        <div class="klk-collapse-item-content-inner">
+                                            <div class="klk-markdown-backgroud klk-markdown-backgroud--highlight">
+                                                <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h5>
+                                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
+                                                    cupiditate praesentium quam earum ex dignissimos nemo porro iusto
+                                                    omnis quibusdam fuga eos culpa officia ad necessitatibus aut, sed
+                                                    doloribus consectetur?
+                                                    Ratione tempora laborum alias earum eos dolorum sapiente voluptates
+                                                    quam vero magni dignissimos molestiae nobis suscipit repellat
+                                                    dolorem officiis unde, fugiat sunt sed nihil rem velit. Deserunt
+                                                    veniam delectus repellendus.
+                                                    Iure eligendi omnis recusandae doloribus consequatur veritatis
+                                                    inventore voluptatem reprehenderit alias tempore dolor voluptate
+                                                    iste rerum deserunt, incidunt aut, voluptas facilis consectetur
+                                                    dicta. Perspiciatis id eos minima corporis neque doloremque!
+                                                    Nulla, facilis quo. Quam expedita et recusandae quisquam, voluptate
+                                                    in quo ad animi sed voluptatibus blanditiis libero cum temporibus
+                                                    odit dolore possimus rem corrupti rerum excepturi earum tempora
+                                                    tenetur! Vitae.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collapse-item klk-collapse-item">
+                                <div class="klk-collapse-item-main-toggle">
+                                    <div class="klk-collapse-item-header">
+                                        <div class="klk-collapse-item-header-inner">
+
+                                            <div class="klk-collapse-item-title-wrapper">
+                                                <div class="klk-collapse-item-title home--klk">
+                                                    <h5>Đăng ký cuộc hẹn chương trình</h5>
+                                                </div>
+                                            </div>
+                                            <i class="toggle-icon fa-solid fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                    <div class="klk-collapse-item-content">
+                                        <div class="klk-collapse-item-content-inner">
+                                            <div class="klk-markdown-backgroud klk-markdown-backgroud--highlight">
+                                                <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h5>
+                                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
+                                                    cupiditate praesentium quam earum ex dignissimos nemo porro iusto
+                                                    omnis quibusdam fuga eos culpa officia ad necessitatibus aut, sed
+                                                    doloribus consectetur?
+                                                    Ratione tempora laborum alias earum eos dolorum sapiente voluptates
+                                                    quam vero magni dignissimos molestiae nobis suscipit repellat
+                                                    dolorem officiis unde, fugiat sunt sed nihil rem velit. Deserunt
+                                                    veniam delectus repellendus.
+                                                    Iure eligendi omnis recusandae doloribus consequatur veritatis
+                                                    inventore voluptatem reprehenderit alias tempore dolor voluptate
+                                                    iste rerum deserunt, incidunt aut, voluptas facilis consectetur
+                                                    dicta. Perspiciatis id eos minima corporis neque doloremque!
+                                                    Nulla, facilis quo. Quam expedita et recusandae quisquam, voluptate
+                                                    in quo ad animi sed voluptatibus blanditiis libero cum temporibus
+                                                    odit dolore possimus rem corrupti rerum excepturi earum tempora
+                                                    tenetur! Vitae.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collapse-item klk-collapse-item">
+                                <div class="klk-collapse-item-main-toggle">
+                                    <div class="klk-collapse-item-header">
+                                        <div class="klk-collapse-item-header-inner">
+
+                                            <div class="klk-collapse-item-title-wrapper">
+                                                <div class="klk-collapse-item-title home--klk">
+                                                    <h5>Điều lệ quận</h5>
+                                                </div>
+                                            </div>
+                                            <i class="toggle-icon fa-solid fa-chevron-down"></i>
+
+                                        </div>
+                                    </div>
+                                    <div class="klk-collapse-item-content">
+                                        <div class="klk-collapse-item-content-inner">
+                                            <div class="klk-markdown-backgroud klk-markdown-backgroud--highlight">
+                                                <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h5>
+                                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
+                                                    cupiditate praesentium quam earum ex dignissimos nemo porro iusto
+                                                    omnis quibusdam fuga eos culpa officia ad necessitatibus aut, sed
+                                                    doloribus consectetur?
+                                                    Ratione tempora laborum alias earum eos dolorum sapiente voluptates
+                                                    quam vero magni dignissimos molestiae nobis suscipit repellat
+                                                    dolorem officiis unde, fugiat sunt sed nihil rem velit. Deserunt
+                                                    veniam delectus repellendus.
+                                                    Iure eligendi omnis recusandae doloribus consequatur veritatis
+                                                    inventore voluptatem reprehenderit alias tempore dolor voluptate
+                                                    iste rerum deserunt, incidunt aut, voluptas facilis consectetur
+                                                    dicta. Perspiciatis id eos minima corporis neque doloremque!
+                                                    Nulla, facilis quo. Quam expedita et recusandae quisquam, voluptate
+                                                    in quo ad animi sed voluptatibus blanditiis libero cum temporibus
+                                                    odit dolore possimus rem corrupti rerum excepturi earum tempora
+                                                    tenetur! Vitae.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collapse-item klk-collapse-item">
+                                <div class="klk-collapse-item-main-toggle">
+                                    <div class="klk-collapse-item-header">
+                                        <div class="klk-collapse-item-header-inner">
+
+                                            <div class="klk-collapse-item-title-wrapper">
+                                                <div class="klk-collapse-item-title home--klk">
+                                                    <h5>Yêu cầu sự hiện diện quận của các quan chức</h5>
+                                                </div>
+                                            </div>
+                                            <i class="toggle-icon fa-solid fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                    <div class="klk-collapse-item-content">
+                                        <div class="klk-collapse-item-content-inner">
+                                            <div class="klk-markdown-backgroud klk-markdown-backgroud--highlight">
+                                                <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h5>
+                                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
+                                                    cupiditate praesentium quam earum ex dignissimos nemo porro iusto
+                                                    omnis quibusdam fuga eos culpa officia ad necessitatibus aut, sed
+                                                    doloribus consectetur?
+                                                    Ratione tempora laborum alias earum eos dolorum sapiente voluptates
+                                                    quam vero magni dignissimos molestiae nobis suscipit repellat
+                                                    dolorem officiis unde, fugiat sunt sed nihil rem velit. Deserunt
+                                                    veniam delectus repellendus.
+                                                    Iure eligendi omnis recusandae doloribus consequatur veritatis
+                                                    inventore voluptatem reprehenderit alias tempore dolor voluptate
+                                                    iste rerum deserunt, incidunt aut, voluptas facilis consectetur
+                                                    dicta. Perspiciatis id eos minima corporis neque doloremque!
+                                                    Nulla, facilis quo. Quam expedita et recusandae quisquam, voluptate
+                                                    in quo ad animi sed voluptatibus blanditiis libero cum temporibus
+                                                    odit dolore possimus rem corrupti rerum excepturi earum tempora
+                                                    tenetur! Vitae.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <footer>
+        <!-- <div class="fui-button-call" style="position: absolute;
+        right: 0;
+        top: -200px;">
+            <a href="#" class="social-link" title="0987654321">
+                <div class="icon">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                    </svg>
+                </div>
+                <span class="text">0987654321</span>
+            </a>
+        </div> -->
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-md-2 col-12 col-sm-6">
+                        <div class="footer--logo">
+                            <a href="/"><img src="img/image 88.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-12 col-sm-6">
+                        <div class="row">
+                            <div class="col-md-3 col-12 col-sm-6">
+                                <h4>MENU</h4>
+                                <ul>
+                                    <li><a href="page2.html">Làm thế nào để tôi</a></li>
+                                    <li><a href="page3.html">Công dân</a></li>
+                                    <li><a href="page3.html">Doanh nghiệp</a></li>
+                                    <li><a href="page8.html">Sở y tế</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-12 col-sm-6">
+                                <h4>ĐIỀU KHOẢN</h4>
+                                <ul>
+                                    <li><a href="">Khả năng tiếp cận</a></li>
+                                    <li><a href="">Chính sách liên kết</a></li>
+                                    <li><a href="">Chính sách bảo mật</a></li>
+                                    <li><a href="">Điều khoản sử dụng</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-12 col-sm-6">
+                                <h4>VỀ CƠ SỞ Y TẾ</h4>
+                                <ul>
+                                    <li><a href="">Cơ quan & ban ngành</a></li>
+                                    <li><a href="page19.html">Liên hệ</a></li>
+                                    <li><a href="">Ngày lễ</a></li>
+                                    <li><a href="">Tòa soạn</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-12 col-sm-6">
+                                <h4>LIÊN HỆ</h4>
+                                <ul class="footer--ul__last">
+                                    <li><a href=""><img src="img/mdi_facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="img/mdi_linkedin.png" alt=""></a></li>
+                                    <li><a href=""><img src="img/basil_instagram-solid.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-12 col-12 col-sm-6">
+                        <div class="hr--home"></div>
+                        <div class="copy--right">
+
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- link xuống dưới jquery min -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"
+        integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--  JS fontawesome -->
+    <script src="js/all.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slick.js"></script>
 </body>
 
 </html>

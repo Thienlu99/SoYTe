@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi tiết dịch vụ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <header id="home">
+        <div class="container">
+            <div class="header">
+                <div class="header--all--logo--lang">
+
+                    <div class="header--logo">
+                        <a href="/" class="header--logo--img--text">
+                            <img src="img/image 88.png" alt="" />
+                            <p class="header--logo__text">SỞ Y TẾ HÀ NỘI</p>
+                        </a>
+                    </div>
+
+
+                    <div class="header--search--lang">
+                        <form action="https://test.nuocmamtungvan.com/" method="GET" role="form" id="searchform"
+                            class="search--header--home">
+                            <input type="text" class="search-box_input search-ajax search--lang__border"
+                                autocomplete="off" name="s" placeholder="Tìm kiếm" />
+                            <button type="submit" data-spm-item="SearchBtn?trg=manual&amp;typ=entry"
+                                class="search-box_btn-search">
+                                <span class="search-box_icon-search i-icon i-icon-icon-search">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </button>
+                        </form>
+                        <!-- input -->
+                        <div class="dropdown header--lang search--lang__border">
+                            <a class="dropdown-toggle icon-padding" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fas fa-globe"></i> VI
+                            </a>
+
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-globe"></i> EngLand</a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-globe"></i> France</a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-globe"></i> China</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="hr"></div> -->
+
+
+
+                </div>
+            </div>
+            <!-- responsive menu -->
+            <!-- <div class="responsive--menu">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+                <i class="fa-solid fa-x" id="close-icon" style="display: none;"></i>
+            </div> -->
+
+            <div class="row header-inner">
+
+                <input type="checkbox" class='nav__input' name="" id="nav__input">
+                <!-- icon bar -->
+                <label for="nav__input" class="nav__bar-btn">
+                    <i class="fa-solid fa-bars" style="font-size: 30px;"></i>
+                </label>
+                <nav class="header--menu menu-header-wrap nav__pc" id="menu-header-wrap">
+                    <ul class="header--menu--menu">
+                        <li><a href="page8.html">Sở y tế <i class="fas fa-angle-down"></i> </a>
+                            <div class="megamenu">
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Đông Bắc Bộ</li>
+                                    <li><a href="#">Hà Giang</a></li>
+                                    <li><a href="#">Tuyên Quang</a></li>
+                                    <li><a href="#">Cao Bằng</a></li>
+                                    <li><a href="#">Bắc Kạn</a></li>
+                                    <li><a href="#">Thái Nguyên</a></li>
+                                    <li><a href="#">Lạng Sơn</a></li>
+                                    <li><a href="#">Bắc Giang</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Tây Bắc Bộc</li>
+                                    <li><a href="#">Hòa Bình</a></li>
+                                    <li><a href="#">Sơn La</a></li>
+                                    <li><a href="#">Điện Biên</a></li>
+                                    <li><a href="#">Lai Châu</a></li>
+                                    <li><a href="#">Lào Cai</a></li>
+                                    <li><a href="#">Yên Bái</a></li>
+
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Đồng bằng sông Hồng</li>
+                                    <li><a href="#">Hà Nội</a></li>
+                                    <li><a href="#">Bắc Ninh</a></li>
+                                    <li><a href="#">Hà Nam</a></li>
+                                    <li><a href="#">Hải Dương</a></li>
+                                    <li><a href="#">Hải Phòng</a></li>
+                                    <li><a href="#">Hưng Yên</a></li>
+                                    <li><a href="#">Nam Định</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Bắc Trung Bộ</li>
+                                    <li><a href="#">Thanh Hóa</a></li>
+                                    <li><a href="#">Nghệ An</a></li>
+                                    <li><a href="#">Hà Tĩnh</a></li>
+                                    <li><a href="#">Quảng Bình</a></li>
+                                    <li><a href="#">Quảng Trị</a></li>
+                                    <li><a href="#">Huế</a></li>
+                                    <li><a href="#">Đà Nẵng</a></li>
+                                </ul>
+
+
+                            </div>
+                        </li>
+                        <li> <a href="page3.html">Công dân <i class="fas fa-angle-down"></i> </a>
+                            <div class="megamenu">
+                                <ul class="single-mega cn-col-3">
+                                    <li class="title">Công dân 1</li>
+                                    <li><a href="#">sub menu 1.2</a></li>
+                                    <li><a href="#">sub menu 1.3</a></li>
+                                    <li><a href="#">ub menu 1.4</a></li>
+                                    <li><a href="#">sub menu 1.5</a></li>
+                                    <li><a href="#">sub menu 1.6</a></li>
+                                    <li><a href="#">sub menu 1.7</a></li>
+                                    <li><a href="#">sub menu 1.8</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-3">
+                                    <li class="title">Công dân 2</li>
+                                    <li><a href="#">sub menu 1.2</a></li>
+                                    <li><a href="#">sub menu 1.3</a></li>
+                                    <li><a href="#">ub menu 1.4</a></li>
+                                    <li><a href="#">sub menu 1.5</a></li>
+                                    <li><a href="#">sub menu 1.6</a></li>
+                                    <li><a href="#">sub menu 1.7</a></li>
+                                    <li><a href="#">sub menu 1.8</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-3">
+                                    <li class="title">Công dân 3</li>
+                                    <li><a href="#">sub menu 1.2</a></li>
+                                    <li><a href="#">sub menu 1.3</a></li>
+                                    <li><a href="#">ub menu 1.4</a></li>
+                                    <li><a href="#">sub menu 1.5</a></li>
+                                    <li><a href="#">sub menu 1.6</a></li>
+                                    <li><a href="#">sub menu 1.7</a></li>
+                                    <li><a href="#">sub menu 1.8</a></li>
+                                </ul>
+
+                            </div>
+
+
+                        </li>
+                        <li><a href="page3.html">Doanh nghiệp <i class="fas fa-angle-down"></i></a>
+                            <div class="megamenu">
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 1</li>
+                                    <li><a href="#">Doanh nghiệp con 1.1</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.2</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.3</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.4</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.5</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.6</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.7</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 2</li>
+                                    <li><a href="#">Doanh nghiệp con 2.1 </a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.2</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.3</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.4 </a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.5</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.6</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.7</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 3</li>
+                                    <li><a href="#">Bình Thuận</a></li>
+                                    <li><a href="#">Khánh Hóa</a></li>
+                                    <li><a href="#">TP.HCM</a></li>
+                                    <li><a href="#">Bình Phước</a></li>
+                                    <li><a href="#">Bến Tre</a></li>
+                                    <li><a href="#">Vũng Tàu</a></li>
+                                    <li><a href="#">Sóc Trăng</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 4</li>
+                                    <li><a href="#">Đắc lắk</a></li>
+                                    <li><a href="#">Gia Lai</a></li>
+                                    <li><a href="#">Kon Tum</a></li>
+                                    <li><a href="#">Lâm Đồng</a></li>
+                                    <li><a href="#">Đắc Nông</a></li>
+                                    <li><a href="#">Lowa</a></li>
+                                    <li><a href="#">Montana</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="page2.html">Làm thế nào để tôi <i class="fas fa-angle-down"></i></a>
+                            <!-- <div class="megamenu">
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền bắc</li>
+                                    <li><a href="#">Hà Nội</a></li>
+                                    <li><a href="#">Hải Phòng</a></li>
+                                    <li><a href="#">Lai Châu</a></li>
+                                    <li><a href="#">Điện biên</a></li>
+                                    <li><a href="#">Nam Định</a></li>
+                                    <li><a href="#">Bình Định</a></li>
+                                    <li><a href="#">Bắc Ninh</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền Trung</li>
+                                    <li><a href="#">Thanh Hóa</a></li>
+                                    <li><a href="#">Nghệ An</a></li>
+                                    <li><a href="#">Quảng Bình</a></li>
+                                    <li><a href="#">Quảng Trị</a></li>
+                                    <li><a href="#">Huế</a></li>
+                                    <li><a href="#">Đà Nẵng</a></li>
+                                    <li><a href="#">Quảng Ngãi</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền Nam</li>
+                                    <li><a href="#">Bình Thuận</a></li>
+                                    <li><a href="#">Khánh Hóa</a></li>
+                                    <li><a href="#">TP.HCM</a></li>
+                                    <li><a href="#">Bình Phước</a></li>
+                                    <li><a href="#">Bến Tre</a></li>
+                                    <li><a href="#">Vũng Tàu</a></li>
+                                    <li><a href="#">Sóc Trăng</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Tây nguyên</li>
+                                    <li><a href="#">Đắc lắk</a></li>
+                                    <li><a href="#">Gia Lai</a></li>
+                                    <li><a href="#">Kon Tum</a></li>
+                                    <li><a href="#">Lâm Đồng</a></li>
+                                    <li><a href="#">Đắc Nông</a></li>
+                                    <li><a href="#">Lowa</a></li>
+                                    <li><a href="#">Montana</a></li>
+                                </ul>
+                            </div> -->
+                        </li>
+                    </ul>
+                </nav>
+
+                <label for="nav__input" class="nav__overlay">
+                </label>
+                <!-- menu mobile -->
+                <nav class="nav__mobile">
+                    <ul class="nav__mobile-list">
+                        <li><a href="page8.html" class="nav__mobile-link">Sở y tế</a><i
+                                class="fa-solid fa-angle-down"></i>
+                            <div class="megamenu--mobile">
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền Trung</li>
+                                    <li><a href="#">Hà Nội</a></li>
+                                    <li><a href="#">Hải Phòng</a></li>
+                                    <li><a href="#">Lai Châu</a></li>
+                                    <li><a href="#">Điện biên</a></li>
+                                    <li><a href="#">Nam Định</a></li>
+                                    <li><a href="#">Bình Định</a></li>
+                                    <li><a href="#">Bắc Ninh</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền Trung</li>
+                                    <li><a href="#">Thanh Hóa</a></li>
+                                    <li><a href="#">Nghệ An</a></li>
+                                    <li><a href="#">Quảng Bình</a></li>
+                                    <li><a href="#">Quảng Trị</a></li>
+                                    <li><a href="#">Huế</a></li>
+                                    <li><a href="#">Đà Nẵng</a></li>
+                                    <li><a href="#">Quảng Ngãi</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền Nam</li>
+                                    <li><a href="#">Bình Thuận</a></li>
+                                    <li><a href="#">Khánh Hóa</a></li>
+                                    <li><a href="#">TP.HCM</a></li>
+                                    <li><a href="#">Bình Phước</a></li>
+                                    <li><a href="#">Bến Tre</a></li>
+                                    <li><a href="#">Vũng Tàu</a></li>
+                                    <li><a href="#">Sóc Trăng</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Tây nguyên</li>
+                                    <li><a href="#">Đắc lắk</a></li>
+                                    <li><a href="#">Gia Lai</a></li>
+                                    <li><a href="#">Kon Tum</a></li>
+                                    <li><a href="#">Lâm Đồng</a></li>
+                                    <li><a href="#">Đắc Nông</a></li>
+                                    <li><a href="#">Lowa</a></li>
+                                    <li><a href="#">Montana</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="page3.html" class="nav__mobile-link">Công dân </a><i
+                                class="fa-solid fa-angle-down"></i></li>
+                        <li><a href="page3.html" class="nav__mobile-link">Doanh nghiệp </a><i
+                                class="fa-solid fa-angle-down"></i></li>
+                        <li><a href="page2.html" class="nav__mobile-link">Làm thế nào để tôi </a><i
+                                class="fa-solid fa-angle-down"></i></li>
+                    </ul>
+
+                    <!-- icon X -->
+                    <label for="nav__input" class="nav__mobile-btn">
+                        <i class="fa-solid fa-x" style="font-size: 25px;"></i>
+                    </label>
+                </nav>
+                </label>
+
+            </div>
+
+
+
+
+            <!-- end header -->
+
+
+        </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <section class="banner">
+        <!-- <div class="container-fluid"> -->
+        <div class="card bg-dark text-white" style="border: none;">
+            <img src="img/image 9.png" alt="">
+            <div class="container">
+                <form action="https://test.nuocmamtungvan.com/" method="GET" role="form" id="searchbanner">
+                    <input type="text" class=" search-ajax " autocomplete="off" name="s" placeholder="Tìm kiếm" />
+                    <button class="btn search--banner--button"><i class="fas fa-search search-icon-banner"></i></button>
+                </form>
+            </div>
+        </div>
+
+
+        <!-- </div> -->
+    </section>
+    <!-- end banner -->
+    <section class="sect-breadcrumb">
+        <div class="container">
+            <div class="fui-basic-breadcrumb">
+                <ul class="breadcrumb-list">
+                    <li class="breadcrumb-list-item">
+                        <a href="/" class="breadcrumb-link">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li class="breadcrumb-list-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path fill="currentColor" fill-rule="evenodd"
+                                d="M9.793 7.793a1 1 0 000 1.414L12.586 12l-2.793 2.793a1 1 0 101.414 1.414l3.5-3.5a1 1 0 000-1.414l-3.5-3.5a1 1 0 00-1.414 0z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <a href="#" class="breadcrumb-link">Sức khỏe</a>
+                    </li>
+                    <li class="breadcrumb-list-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path fill="currentColor" fill-rule="evenodd"
+                                d="M9.793 7.793a1 1 0 000 1.414L12.586 12l-2.793 2.793a1 1 0 101.414 1.414l3.5-3.5a1 1 0 000-1.414l-3.5-3.5a1 1 0 00-1.414 0z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <a href="#" class="breadcrumb-link">Thực phẩm và dinh dưỡng</a>
+                    </li>
+                    <li class="breadcrumb-list-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path fill="currentColor" fill-rule="evenodd"
+                                d="M9.793 7.793a1 1 0 000 1.414L12.586 12l-2.793 2.793a1 1 0 101.414 1.414l3.5-3.5a1 1 0 000-1.414l-3.5-3.5a1 1 0 00-1.414 0z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <a href="#" class="breadcrumb-link">Lời khuyên chung an toàn thực phẩm</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- end breadcrumb -->
+    <section class="nav--content nav--content--page6">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-3 col-12 col-sm-6">
+                    <div class=" nav--content--left">
+                        <h3 class="">Lời khuyên chung về an toàn thực phẩm</h3>
+                        <div class="nav--content-left__title">
+                            <p>An toàn thực phẩm và bạn </p>
+                        </div>
+                        <div class="nav--content-left__box">
+                            <a href="">
+
+                                Sở Y Tế Hà Nội
+                            </a>
+                        </div>
+                        <div class="nav--content-left__box">
+                            <a href="">
+
+                                Bộ Y Tế
+                            </a>
+                        </div>
+                        <div class="nav--content-left__box">
+                            <a href="">
+
+                                Sở Y tế Công cộng
+                            </a>
+                        </div>
+                        <div class="nav--content-left__box">
+                            <a href="">
+
+                                Trung tâm Y tế
+                            </a>
+                        </div>
+                        <div class="nav--content-left__box">
+                            <a href="">
+
+                                Sở Y Tế Hà Nội
+                            </a>
+                        </div>
+                        <div class="nav--content-left__box">
+                            <a href="">
+
+                                Bộ Y Tế
+                            </a>
+                        </div>
+                        <div class="nav--content-left__box">
+                            <a href="">
+
+                                Sở Y tế Công cộng
+                            </a>
+                        </div>
+                        <div class="nav--content-left__box">
+                            <a href="">
+
+                                Trung tâm Y tế
+                            </a>
+                        </div>
+                        <div class="nav--content-left__box">
+                            <a href="">
+
+                                Sở Y Tế Hà Nội
+                            </a>
+                        </div>
+                        <div class="nav--content-left__box">
+                            <a href="">
+
+                                Bộ Y Tế
+                            </a>
+                        </div>
+                        <div class="nav--content-left__box">
+                            <a href="">
+
+                                Sở Y tế Công cộng
+                            </a>
+                        </div>
+                        <div class="nav--content-left__box">
+                            <a href="">
+
+                                Trung tâm Y tế
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-9 col-12 col-sm-6">
+                    <h3>An toàn thực phẩm</h3>
+                    <div class="hr--blue--page6"></div>
+                    <div class="row">
+                        <div class="col-md-7 col-sm-12 col-12">
+                            <div class=" nav--content--text">
+                                <div class="about--title">
+                                    <p>An toàn thực phẩm rất quan trọng đối với mọi người và tất cả chúng ta đều có thể
+                                        thực hiện các bước đơn giản để bảo vệ
+                                        bản thân và gia đình.
+                                    </p>
+                                    <p>Mặc dù thực phẩm chúng ta ăn ở TP Hà Nội thuộc loại an toàn nhất trên thế giới
+                                        nhưng mọi thứ vẫn có
+                                        thể xảy ra sai sót ở bất cứ đâu. Thực phẩm có thể bị ô nhiễm bởi vi khuẩn, vi
+                                        rút và ký sinh trùng khi nó được đưa đến bàn ăn của bạn. Tìm hiểu về các phương
+                                        pháp lựa chọn, xử lý và chuẩn bị thực phẩm an toàn
+                                        sẽ giúp bạn và những người khác luôn được an toàn trước nguy cơ.</p>
+                                    <div class="about--title__url">
+                                        <h5>Tại trang này</h5>
+                                        <ul>
+                                            <li><a href="">Rủi ro sức khỏe</a></li>
+                                            <li><a href="">Làm sạch</a></li>
+                                            <li><a href="">Chilling</a></li>
+                                            <li><a href="">Rã đông</a></li>
+                                            <li><a href="">Nấu nướng</a></li>
+                                            <li><a href="">Thức ăn thừa</a></li>
+                                            <li><a href="">Chọn giải pháp thay thế an toàn hơn</a></li>
+                                            <li><a href="">Mua sắm</a></li>
+                                            <li><a href="">Vai trò của Sở Y Tế Hà Nội</a></li>
+
+
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <!-- end nav--content -->
+
+                        </div>
+                        <div class="col-md-5 col-sm-12 col-12">
+                            <div class="about--img">
+                                <img src="img/image 83.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="about--title__item marrgin-title--item">
+                                <h4>Rủi ro sức khỏe</h4>
+                                <p>Hàng năm, hơn 4 triệu người Việt Nam bị ngộ độc thực phẩm (còn gọi là bệnh do
+                                    thực phẩm hoặc bệnh liên quan đến thực phẩm). Các triệu chứng thường bao gồm buồn
+                                    nôn, nôn, tiêu chảy, đau dạ dày và sốt.
+                                </p>
+                                <p>Thông thường mọi người hồi phục nhanh chóng mà không có biến chứng lâu dài,
+                                    nhưng trong một số trường hợp, các biến chứng nghiêm trọng có thể xảy ra, bao gồm cả
+                                    tử vong.
+                                </p>
+                                <p>Ngộ độc thực phẩm là do thực phẩm bị ô nhiễm. Biết cách nấu, làm sạch,
+                                    làm lạnh và phân tách thực phẩm đúng cách trong khi xử lý và chuẩn bị chúng có thể
+                                    giúp bạn ngăn ngừa ngộ độc thực phẩm.
+                                </p>
+                                <p>Hãy làm theo những lời khuyên an toàn dưới đây để bảo vệ bản thân và gia đình bạn.
+                                </p>
+                            </div>
+                            <div class="about--title__item">
+                                <h4>Làm sạch</h4>
+                                <p>Làm sạch bất cứ thứ gì tiếp xúc với thực phẩm sẽ giúp loại bỏ vi khuẩn và giảm nguy
+                                    cơ mắc bệnh liên quan đến thực phẩm. Điều này bao gồm bàn tay của bạn, bề mặt nhà
+                                    bếp, đồ dùng,
+                                    trái cây và rau quả và túi đựng hàng tạp hóa có thể tái sử dụng.</p>
+                                <h5>Bạn, dụng cụ và bề mặt bếp của bạn</h5>
+                                <ul>
+                                    <li>Rửa tay. Sử dụng xà phòng thông thường hoặc nước rửa tay chứa cồn nếu không có
+                                        xà phòng và nước.
+                                        <ul>
+                                            <li>Rửa bằng nước xà phòng ấm trong ít nhất 20 giây.
+                                            </li>
+                                            <li>Việc rửa đặc biệt quan trọng trước và sau khi xử lý thịt, gia cầm, cá
+                                                hoặc hải sản sống. Ngoài ra, hãy rửa tay sau khi xử lý vật nuôi, thay tã
+                                                và tất nhiên là sử dụng phòng tắm.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>Tách thớt của bạn. Sử dụng một tấm cho nông sản và một tấm khác cho thịt sống,
+                                        thịt gia cầm, cá và hải sản.
+                                    </li>
+                                    <li>Đĩa hoặc dụng cụ dùng để xử lý thực phẩm sống phải được rửa kỹ bằng xà phòng
+                                        trước khi sử dụng lại.
+                                    </li>
+                                    <li>Dùng khăn giấy lau sạch bề mặt bếp. Nếu không, hãy thay khăn rửa chén hàng ngày
+                                        để tránh nguy cơ lây nhiễm chéo và lây lan vi khuẩn.
+                                        <ul>
+                                            <li>Tránh sử dụng bọt biển vì chúng khó giữ sạch vi khuẩn hơn.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>Vệ sinh mặt bàn, thớt và dụng cụ trước và sau khi chế biến thức ăn. Sử dụng chất
+                                        khử trùng nhà bếp (theo chỉ dẫn) hoặc dung dịch thuốc tẩy (5 ml, hoặc mL, thuốc
+                                        tẩy thành 750 mL nước). Rửa sạch tất cả các vật dụng một cách cẩn thận bằng
+                                        nước.
+                                    </li>
+                                    <li>Giặt túi đựng hàng tạp hóa có thể tái sử dụng của bạn thường xuyên.</li>
+                                </ul>
+                            </div>
+                            <div class="about--title__item">
+                                <h5>Thức ăn</h5>
+                                <ul>
+                                    <li>Rửa trái cây và rau quả tươi bằng nước uống được trước khi sử dụng. Dùng chổi
+                                        quét rau đối với những sản phẩm có vỏ cứng (ví dụ: cà rốt và dưa).
+                                        <ul>
+                                            <li>Không sử dụng xà phòng để rửa sản phẩm của bạn.
+                                            </li>
+                                            <li>Rửa sản phẩm dưới vòi nước đang chảy thay vì ngâm trong bồn rửa.
+                                                Vi khuẩn trong bồn rửa có thể truyền sang thức ăn của bạn.</li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="about--title__item">
+                                <h4>Chilling</h4>
+                                <p>Điều quan trọng là phải giữ lạnh thực phẩm lạnh và giữ nóng thực phẩm nóng để thực
+                                    phẩm của bạn không bao giờ đạt đến "vùng nhiệt độ nguy hiểm".
+                                    Đây là nơi vi khuẩn có thể phát triển nhanh chóng và gây ngộ độc thực phẩm</p>
+                                <ul>
+                                    <li>
+                                        Đặt tủ lạnh ở nhiệt độ 4°C(40°F) hoặc thấp hơn và tủ đông ở -18°C(0°F) hoặc thấp
+                                        hơn.
+                                        Vi khuẩn có thể phát triển nhanh chóng trong điều kiện thích hợp. Vùng nhiệt độ
+                                        nguy hiểm đối với thực phẩm là từ 4°C(40°F) đến 60°C(140°F).
+
+                                    </li>
+                                    <li>Giữ lạnh thịt sống, thịt gia cầm, cá và hải sản. Làm lạnh hoặc đông lạnh chúng
+                                        càng sớm
+                                        càng tốt hoặc trong vòng hai giờ.
+                                    </li>
+                                    <li>Giữ thịt sống, thịt gia cầm, cá và hải sản tách biệt với các thực phẩm khác
+                                        trong tủ lạnh.
+                                        Lưu trữ chúng trong các thùng chứa khác nhau.
+                                    </li>
+                                    <li>Đặt thịt sống, thịt gia cầm, cá và hải sản vào hộp kín hoặc túi nhựa.
+                                        Để nước ép tươi không nhỏ giọt vào thực phẩm khác, hãy cất những thứ này ở ngăn
+                                        dưới cùng của tủ lạnh.
+                                    </li>
+                                    <li>Bảo quản thịt nguội trong tủ lạnh và sử dụng chúng trong vòng bốn ngày hoặc tốt
+                                        nhất
+                                        là hai đến ba ngày sau khi mở.
+                                    </li>
+                                    <li>Bảo quản trái cây đã rửa sạch, cắt lát và rau củ thái lát trong tủ lạnh.
+                                        Nấu thịt sống, thịt gia cầm, cá và hải sản không quá hai đến ba ngày sau khi
+                                        mua.
+                                        Nếu bạn không có ý định nấu nó trong thời gian này, nó sẽ được đông lạnh.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-12">
+                            <div class="info--xemthem">
+                                <div class="info--xemthem--title">
+                                    <h4 class="info--xemthem--title__h4">Để biết xem thông tin</h4>
+                                </div>
+                                <div class="info--xemthem--content">
+                                    <ul>
+                                        <li><a href="">Covid-19 và an toàn thực phẩm</a></li>
+                                        <li><a href="">Nhóm dân số dễ bị tổn thương</a></li>
+                                        <li><a href="">Hướng dẫn Thực phẩm</a></li>
+                                        <li><a href="">ngộ độc thực phẩm</a></li>
+                                        <li><a href="">Nguyên nhân ngộ độc thực phẩm</a></li>
+                                        <li><a href="">Cổng thông tin an toàn thực phẩm</a></li>
+                                        <li><a href="">Hãy an toàn thực phẩm</a></li>
+                                    </ul>
+                                </div>
+                                <div class="info--xemthem--footer">
+                                    <a href="">Dành cho ngành công nghiệp và chuyên gia</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- end content -->
+    <section class="button--item">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="button--item__button">
+                        <button data-toggle="modal" data-target="#baocaosuco"><i class="fas fa-play"></i> Báo cáo sự cố
+                            trên trang này</button>
+                        <button><i class="fas fa-share-square"></i> Chia sẽ trang này</button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- text -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="button--item__text">
+                        <p>Ngày sửa đổi: 2023-08-09</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="baocaosuco" tabindex="-1" role="dialog" aria-labelledby="baocaosuco" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Báo cáo sự cố trang này</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <section class="in--show--button--item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="form--button--item col-md-12 col-sm-6">
+                                    <form action="">
+                                        <h4>Vui lòng chọn tất cả áp dụng:</h4>
+                                        <div class="form-check ">
+
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                            <label class="form-check-label" for="defaultCheck1">
+                                                Một liên kết, nút hoặc video không hoạt động
+                                            </label>
+
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                            <label class="form-check-label" for="defaultCheck2">
+                                                Nó có một lỗi chính tả
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                            <label class="form-check-label" for="defaultCheck2">
+                                                Thông tin bị thiếu
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                            <label class="form-check-label" for="defaultCheck2">
+                                                THông tin đã lỗi thời hoặc sai
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                            <label class="form-check-label" for="defaultCheck2">
+                                                Lỗi thời đăng nhập khi cố gắng truy cập tài khoản
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                            <label class="form-check-label" for="defaultCheck2">
+                                                Tôi không thể tìm thấy những gì tôi đang tìm kiếm
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                            <label class="form-check-label" for="defaultCheck2">
+                                                Vấn đề khác không có trong danh sách này
+                                            </label>
+                                        </div>
+                                        <button class="btn btn-dark">Nộp</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <!-- <div class="fui-button-call" style="position: absolute;
+        right: 0;
+        top: -200px;">
+            <a href="#" class="social-link" title="0987654321">
+                <div class="icon">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                    </svg>
+                </div>
+                <span class="text">0987654321</span>
+            </a>
+        </div> -->
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-md-2 col-12 col-sm-6">
+                        <div class="footer--logo">
+                            <a href="/"><img src="img/image 88.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-12 col-sm-6">
+                        <div class="row">
+                            <div class="col-md-3 col-12 col-sm-6">
+                                <h4>MENU</h4>
+                                <ul>
+                                    <li><a href="page2.html">Câu hỏi thường gặp</a></li>
+                                    <li><a href="page3.html">Công dân</a></li>
+                                    <li><a href="page3.html">Doanh nghiệp</a></li>
+                                    <li><a href="">Sở y tế</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-12 col-sm-6">
+                                <h4>ĐIỀU KHOẢN</h4>
+                                <ul>
+                                    <li><a href="">Khả năng tiếp cận</a></li>
+                                    <li><a href="">Chính sách liên kết</a></li>
+                                    <li><a href="">Chính sách bảo mật</a></li>
+                                    <li><a href="">Điều khoản sử dụng</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-12 col-sm-6">
+                                <h4>VỀ CƠ SỞ Y TẾ</h4>
+                                <ul>
+                                    <li><a href="">Cơ quan & ban ngành</a></li>
+                                    <li><a href="page19.html">Liên hệ</a></li>
+                                    <li><a href="">Ngày lễ</a></li>
+                                    <li><a href="">Tòa soạn</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-12 col-sm-6">
+                                <h4>LIÊN HỆ</h4>
+                                <ul class="footer--ul__last">
+                                    <li><a href=""><img src="img/mdi_facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="img/mdi_linkedin.png" alt=""></a></li>
+                                    <li><a href=""><img src="img/basil_instagram-solid.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- link xuống dưới jquery min -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"
+        integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--  JS fontawesome -->
+    <script src="js/all.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

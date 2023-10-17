@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi tiết phản ánh kiến nghị</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <header id="home">
+        <div class="container">
+            <div class="header">
+                <div class="header--all--logo--lang">
+
+                    <div class="header--logo">
+                        <a href="/" class="header--logo--img--text">
+                            <img src="img/image 88.png" alt="" />
+                            <p class="header--logo__text">SỞ Y TẾ HÀ NỘI</p>
+                        </a>
+                    </div>
+
+
+                    <div class="header--search--lang">
+                        <form action="https://test.nuocmamtungvan.com/" method="GET" role="form" id="searchform"
+                            class="search--header--home">
+                            <input type="text" class="search-box_input search-ajax search--lang__border"
+                                autocomplete="off" name="s" placeholder="Tìm kiếm" />
+                            <button type="submit" data-spm-item="SearchBtn?trg=manual&amp;typ=entry"
+                                class="search-box_btn-search">
+                                <span class="search-box_icon-search i-icon i-icon-icon-search">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </button>
+                        </form>
+                        <!-- input -->
+                        <div class="dropdown header--lang search--lang__border">
+                            <a class="dropdown-toggle icon-padding" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fas fa-globe"></i> VI
+                            </a>
+
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-globe"></i> EngLand</a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-globe"></i> France</a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-globe"></i> China</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="hr"></div> -->
+
+
+
+                </div>
+            </div>
+            <!-- responsive menu -->
+            <!-- <div class="responsive--menu">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+                <i class="fa-solid fa-x" id="close-icon" style="display: none;"></i>
+            </div> -->
+
+            <div class="row header-inner">
+
+                <input type="checkbox" class='nav__input' name="" id="nav__input">
+                <!-- icon bar -->
+                <label for="nav__input" class="nav__bar-btn">
+                    <i class="fa-solid fa-bars" style="font-size: 30px;"></i>
+                </label>
+                <nav class="header--menu menu-header-wrap nav__pc" id="menu-header-wrap">
+                    <ul class="header--menu--menu">
+                        <li><a href="page8.html">Sở y tế <i class="fas fa-angle-down"></i> </a>
+                            <div class="megamenu">
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Đông Bắc Bộ</li>
+                                    <li><a href="#">Hà Giang</a></li>
+                                    <li><a href="#">Tuyên Quang</a></li>
+                                    <li><a href="#">Cao Bằng</a></li>
+                                    <li><a href="#">Bắc Kạn</a></li>
+                                    <li><a href="#">Thái Nguyên</a></li>
+                                    <li><a href="#">Lạng Sơn</a></li>
+                                    <li><a href="#">Bắc Giang</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Tây Bắc Bộc</li>
+                                    <li><a href="#">Hòa Bình</a></li>
+                                    <li><a href="#">Sơn La</a></li>
+                                    <li><a href="#">Điện Biên</a></li>
+                                    <li><a href="#">Lai Châu</a></li>
+                                    <li><a href="#">Lào Cai</a></li>
+                                    <li><a href="#">Yên Bái</a></li>
+
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Đồng bằng sông Hồng</li>
+                                    <li><a href="#">Hà Nội</a></li>
+                                    <li><a href="#">Bắc Ninh</a></li>
+                                    <li><a href="#">Hà Nam</a></li>
+                                    <li><a href="#">Hải Dương</a></li>
+                                    <li><a href="#">Hải Phòng</a></li>
+                                    <li><a href="#">Hưng Yên</a></li>
+                                    <li><a href="#">Nam Định</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Bắc Trung Bộ</li>
+                                    <li><a href="#">Thanh Hóa</a></li>
+                                    <li><a href="#">Nghệ An</a></li>
+                                    <li><a href="#">Hà Tĩnh</a></li>
+                                    <li><a href="#">Quảng Bình</a></li>
+                                    <li><a href="#">Quảng Trị</a></li>
+                                    <li><a href="#">Huế</a></li>
+                                    <li><a href="#">Đà Nẵng</a></li>
+                                </ul>
+
+
+                            </div>
+                        </li>
+                        <li> <a href="page3.html">Công dân <i class="fas fa-angle-down"></i> </a>
+                            <div class="megamenu">
+                                <ul class="single-mega cn-col-3">
+                                    <li class="title">Công dân 1</li>
+                                    <li><a href="#">sub menu 1.2</a></li>
+                                    <li><a href="#">sub menu 1.3</a></li>
+                                    <li><a href="#">ub menu 1.4</a></li>
+                                    <li><a href="#">sub menu 1.5</a></li>
+                                    <li><a href="#">sub menu 1.6</a></li>
+                                    <li><a href="#">sub menu 1.7</a></li>
+                                    <li><a href="#">sub menu 1.8</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-3">
+                                    <li class="title">Công dân 2</li>
+                                    <li><a href="#">sub menu 1.2</a></li>
+                                    <li><a href="#">sub menu 1.3</a></li>
+                                    <li><a href="#">ub menu 1.4</a></li>
+                                    <li><a href="#">sub menu 1.5</a></li>
+                                    <li><a href="#">sub menu 1.6</a></li>
+                                    <li><a href="#">sub menu 1.7</a></li>
+                                    <li><a href="#">sub menu 1.8</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-3">
+                                    <li class="title">Công dân 3</li>
+                                    <li><a href="#">sub menu 1.2</a></li>
+                                    <li><a href="#">sub menu 1.3</a></li>
+                                    <li><a href="#">ub menu 1.4</a></li>
+                                    <li><a href="#">sub menu 1.5</a></li>
+                                    <li><a href="#">sub menu 1.6</a></li>
+                                    <li><a href="#">sub menu 1.7</a></li>
+                                    <li><a href="#">sub menu 1.8</a></li>
+                                </ul>
+
+                            </div>
+
+
+                        </li>
+                        <li><a href="page3.html">Doanh nghiệp <i class="fas fa-angle-down"></i></a>
+                            <div class="megamenu">
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 1</li>
+                                    <li><a href="#">Doanh nghiệp con 1.1</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.2</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.3</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.4</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.5</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.6</a></li>
+                                    <li><a href="#">Doanh nghiệp con 1.7</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 2</li>
+                                    <li><a href="#">Doanh nghiệp con 2.1 </a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.2</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.3</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.4 </a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.5</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.6</a></li>
+                                    <li><a href="#">Doanh nghiệp con 2.7</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 3</li>
+                                    <li><a href="#">Bình Thuận</a></li>
+                                    <li><a href="#">Khánh Hóa</a></li>
+                                    <li><a href="#">TP.HCM</a></li>
+                                    <li><a href="#">Bình Phước</a></li>
+                                    <li><a href="#">Bến Tre</a></li>
+                                    <li><a href="#">Vũng Tàu</a></li>
+                                    <li><a href="#">Sóc Trăng</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Doanh nghiệp 4</li>
+                                    <li><a href="#">Đắc lắk</a></li>
+                                    <li><a href="#">Gia Lai</a></li>
+                                    <li><a href="#">Kon Tum</a></li>
+                                    <li><a href="#">Lâm Đồng</a></li>
+                                    <li><a href="#">Đắc Nông</a></li>
+                                    <li><a href="#">Lowa</a></li>
+                                    <li><a href="#">Montana</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="page2.html">Làm thế nào để tôi <i class="fas fa-angle-down"></i></a>
+                            <!-- <div class="megamenu">
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền bắc</li>
+                                    <li><a href="#">Hà Nội</a></li>
+                                    <li><a href="#">Hải Phòng</a></li>
+                                    <li><a href="#">Lai Châu</a></li>
+                                    <li><a href="#">Điện biên</a></li>
+                                    <li><a href="#">Nam Định</a></li>
+                                    <li><a href="#">Bình Định</a></li>
+                                    <li><a href="#">Bắc Ninh</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền Trung</li>
+                                    <li><a href="#">Thanh Hóa</a></li>
+                                    <li><a href="#">Nghệ An</a></li>
+                                    <li><a href="#">Quảng Bình</a></li>
+                                    <li><a href="#">Quảng Trị</a></li>
+                                    <li><a href="#">Huế</a></li>
+                                    <li><a href="#">Đà Nẵng</a></li>
+                                    <li><a href="#">Quảng Ngãi</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền Nam</li>
+                                    <li><a href="#">Bình Thuận</a></li>
+                                    <li><a href="#">Khánh Hóa</a></li>
+                                    <li><a href="#">TP.HCM</a></li>
+                                    <li><a href="#">Bình Phước</a></li>
+                                    <li><a href="#">Bến Tre</a></li>
+                                    <li><a href="#">Vũng Tàu</a></li>
+                                    <li><a href="#">Sóc Trăng</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Tây nguyên</li>
+                                    <li><a href="#">Đắc lắk</a></li>
+                                    <li><a href="#">Gia Lai</a></li>
+                                    <li><a href="#">Kon Tum</a></li>
+                                    <li><a href="#">Lâm Đồng</a></li>
+                                    <li><a href="#">Đắc Nông</a></li>
+                                    <li><a href="#">Lowa</a></li>
+                                    <li><a href="#">Montana</a></li>
+                                </ul>
+                            </div> -->
+                        </li>
+                    </ul>
+                </nav>
+
+                <label for="nav__input" class="nav__overlay">
+                </label>
+                <!-- menu mobile -->
+                <nav class="nav__mobile">
+                    <ul class="nav__mobile-list">
+                        <li><a href="page8.html" class="nav__mobile-link">Sở y tế</a><i
+                                class="fa-solid fa-angle-down"></i>
+                            <div class="megamenu--mobile">
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền Trung</li>
+                                    <li><a href="#">Hà Nội</a></li>
+                                    <li><a href="#">Hải Phòng</a></li>
+                                    <li><a href="#">Lai Châu</a></li>
+                                    <li><a href="#">Điện biên</a></li>
+                                    <li><a href="#">Nam Định</a></li>
+                                    <li><a href="#">Bình Định</a></li>
+                                    <li><a href="#">Bắc Ninh</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền Trung</li>
+                                    <li><a href="#">Thanh Hóa</a></li>
+                                    <li><a href="#">Nghệ An</a></li>
+                                    <li><a href="#">Quảng Bình</a></li>
+                                    <li><a href="#">Quảng Trị</a></li>
+                                    <li><a href="#">Huế</a></li>
+                                    <li><a href="#">Đà Nẵng</a></li>
+                                    <li><a href="#">Quảng Ngãi</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Miền Nam</li>
+                                    <li><a href="#">Bình Thuận</a></li>
+                                    <li><a href="#">Khánh Hóa</a></li>
+                                    <li><a href="#">TP.HCM</a></li>
+                                    <li><a href="#">Bình Phước</a></li>
+                                    <li><a href="#">Bến Tre</a></li>
+                                    <li><a href="#">Vũng Tàu</a></li>
+                                    <li><a href="#">Sóc Trăng</a></li>
+                                </ul>
+                                <ul class="single-mega cn-col-4">
+                                    <li class="title">Tây nguyên</li>
+                                    <li><a href="#">Đắc lắk</a></li>
+                                    <li><a href="#">Gia Lai</a></li>
+                                    <li><a href="#">Kon Tum</a></li>
+                                    <li><a href="#">Lâm Đồng</a></li>
+                                    <li><a href="#">Đắc Nông</a></li>
+                                    <li><a href="#">Lowa</a></li>
+                                    <li><a href="#">Montana</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="page3.html" class="nav__mobile-link">Công dân </a><i
+                                class="fa-solid fa-angle-down"></i></li>
+                        <li><a href="page3.html" class="nav__mobile-link">Doanh nghiệp </a><i
+                                class="fa-solid fa-angle-down"></i></li>
+                        <li><a href="page2.html" class="nav__mobile-link">Làm thế nào để tôi </a><i
+                                class="fa-solid fa-angle-down"></i></li>
+                    </ul>
+
+                    <!-- icon X -->
+                    <label for="nav__input" class="nav__mobile-btn">
+                        <i class="fa-solid fa-x" style="font-size: 25px;"></i>
+                    </label>
+                </nav>
+                </label>
+            </div>
+            <!-- end header -->
+        </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <section class="banner">
+        <!-- <div class="container-fluid"> -->
+        <div class="card bg-dark text-white" style="border: none;">
+            <img src="img/image 9.png" alt="">
+            <div class="container">
+                <form action="https://test.nuocmamtungvan.com/" method="GET" role="form" id="searchbanner">
+                    <input type="text" class=" search-ajax " autocomplete="off" name="s" placeholder="Tìm kiếm" />
+                    <button class="btn search--banner--button"><i class="fas fa-search search-icon-banner"></i></button>
+                </form>
+            </div>
+        </div>
+
+
+        <!-- </div> -->
+    </section>
+
+    <!-- end banner -->
+    <section class="sect-breadcrumb">
+        <div class="container">
+            <div class="fui-basic-breadcrumb">
+                <ul class="breadcrumb-list">
+                    <li class="breadcrumb-list-item">
+                        <a href="/" class="breadcrumb-link">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li class="breadcrumb-list-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path fill="currentColor" fill-rule="evenodd"
+                                d="M9.793 7.793a1 1 0 000 1.414L12.586 12l-2.793 2.793a1 1 0 101.414 1.414l3.5-3.5a1 1 0 000-1.414l-3.5-3.5a1 1 0 00-1.414 0z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <a href="#" class="breadcrumb-link">Chi tiết kiến nghị</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- end breadcrumb -->
+    <section class="nav--content content--page16">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-12 col-sm-6">
+                    <div class="nav--content--text">
+                        <h3 class="title--page17">Kiến nghị về việc: Tình trạng sạt lở nghiêm trọng ở cầu Sư son</h3>
+                    </div>
+                    <p>Nguyễn Hải Đăng - 13:07 ngày 22/08/2023</p>
+                    <div class="box--page--17">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <div class="comment--img">
+                                    <img class="" src="img/wpf_ask-question.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="col-md-10 col-sm-12">
+                                <div class="comment-info--page17">
+                                    <p class="comment-info__first">Nội dung kiến nghị:</p>
+                                    <p class="">
+                                        Tình trạng sạt lở rất nghiêm trọng đã qua hơn 1 năm mà vẫn chưa thấy giải quyết
+                                        do đây là đường lớn được đầu tư bằng xi mang nhưng hiện tại đã bị sạt lở ảnh
+                                        hưởng đến mạng sống người dân gần đó cũng như nhu cầu đi lại sinh hoạt của người
+                                        dân rất khó khăn đặt biệt mùa tụ trường sắp đến mà chính quyền địa phương cứ hứa
+                                        hẹn xuống xem qua loa rùi đã hơn một năm mà chưa có phương án giải quyết..</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="hr--border-pag16 border-pag16"></div>
+                    <p>Nguyễn Hải Đăng - 13:07 ngày 22/08/2023</p>
+                    <div class="box--page--17">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <div class="comment--img">
+                                    <img class="" src="img/ri_question-answer-line.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="col-md-10 col-sm-12">
+                                <div class="comment-info--page17">
+                                    <p class="comment-info__first">Cơ quan chức năng trả lời:</p>
+                                    <p>
+                                        Kính gửi ông Nguyễn Hải Đăng !
+                                    </p>
+                                    <p class="">
+                                        Nội dung phản ánh kiến nghị của ông Nguyễn Hải Đăng không thuộc PAKN về hành vi
+                                        hành chính, quy định hành chính, do đó cơ quan kiểm soát thủ tục hành chính đã
+                                        chuyển nội dung phản ánh của ông đến cơ quan có thảm quyền xử lý. Đề nghị ông
+                                        liên hệ Sở Giao Thông để được hướng dẫn. Số điện thoại: 0911.744.994 hoặc
+                                        0919.927.837</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="button--page17">
+                        <button type="button" class="btn btn-light button--page17__btn1"><i
+                                class="fa-solid fa-thumbs-up"></i> Hài lòng (0)</button>
+                        <button type="button" class="btn btn-light button--page17__btn2"><i
+                                class="fa-solid fa-thumbs-down"></i> Không hài lòng (0)</button>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="form--page17">
+                            <form>
+                                <h5>Ý kiến đánh giá khác</h5>
+                                <div class="form-group row">
+                                    <label for="inputNam" class="col-md-2 col-sm-12 col-12  col-form-label">Họ và tên</label>
+                                    <div class="col-md-10 col-sm-12 col-12">
+                                        <input type="text" class="form-control" id="inputNam" placeholder="Nhập tên">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+
+                                    <label for="inputEmail" class="col-md-2 col-sm-12 col-12 col-form-label">Email</label>
+                                    <div class="col-md-10 col-sm-12 col-12">
+                                        <input type="password" class="form-control" id="inputEmail"
+                                            placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="staticEmail" class="col-md-2 col-sm-12 col-12 col-form-label">Nội dung</label>
+                                    <div class="col-md-10 col-sm-12 col-12">
+                                        <textarea class="form-control" name="" id="" placeholder="Nội dung" cols="83"
+                                            rows="3"></textarea>
+                                        <!-- <textarea type="text"cols="30" rows="10" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com"></textarea> -->
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="staticEmail" class="col-md-2 col-sm-12 col-12 col-form-label">Mã bảo mật</label>
+                                    <div class="col-md-10 col-sm-12 col-12">
+                                        <div class="captcha-container">
+                                            <input type="text" class="form-control form-control--w" id="inputmaobat"
+                                                placeholder="Nhập mã bão mật">
+                                            <label id="captcha">Loading...</label>
+                                            <label id="refresh"><i class="fa-solid fa-rotate-left"></i></label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div for="staticEmail" class="col-md-2 col-sm-12 col-12"></div>
+                                    <div class="col-md-10 col-sm-12 col-12">
+
+                                        <button class="btn btn-primary res--page15--btn"
+                                            style="width: 270px;  height: 31px;text-align: center;">Gửi góp ý</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12 col-sm-6">
+                    <div class="nav--content-right">
+                        <h3>Liên kết</h3>
+                        <div class="nav--content-right__box">
+                            <a href="">
+
+                                Cơ quan Thanh tra Thực phẩm
+                            </a>
+                        </div>
+                        <div class="nav--content-right__box">
+                            <a href="">
+
+                                Sở Y Tế Hà Nội
+                            </a>
+                        </div>
+                        <div class="nav--content-right__box">
+                            <a href="">
+
+                                Bộ Y Tế
+                            </a>
+                        </div>
+                        <div class="nav--content-right__box">
+                            <a href="">
+
+                                Sở Y tế Công cộng
+                            </a>
+                        </div>
+                        <div class="nav--content-right__box">
+                            <a href="">
+
+                                Trung tâm Y tế
+                            </a>
+                        </div>
+                        <div class="nav--content-right__box">
+                            <a href="">
+
+                                Cơ quan Thanh tra Thực phẩm
+                            </a>
+                        </div>
+                        <div class="nav--content-right__box">
+                            <a href="">
+
+                                Sở Y Tế Hà Nội
+                            </a>
+                        </div>
+                        <div class="nav--content-right__box">
+                            <a href="">
+
+                                Bộ Y Tế
+                            </a>
+                        </div>
+                        <div class="nav--content-right__box">
+                            <a href="">
+
+                                Sở Y tế Công cộng
+                            </a>
+                        </div>
+                        <div class="nav--content-right__box">
+                            <a href="">
+
+                                Trung tâm Y tế
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end content -->
+
+
+
+    <section class="button--item">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="button--item__button">
+                        <button data-toggle="modal" data-target="#baocaosuco"><i class="fas fa-play"></i> Báo cáo sự cố
+                            trên trang này</button>
+                        <button><i class="fas fa-share-square"></i> Chia sẽ trang này</button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- text -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="button--item__text">
+                        <p>Ngày sửa đổi: 2023-08-09</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="baocaosuco" tabindex="-1" role="dialog" aria-labelledby="baocaosuco" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Báo cáo sự cố trang này</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <section class="in--show--button--item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="form--button--item col-md-12 col-sm-6">
+                                    <form action="">
+                                        <h4>Vui lòng chọn tất cả áp dụng:</h4>
+                                        <div class="form-check ">
+
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                            <label class="form-check-label" for="defaultCheck1">
+                                                Một liên kết, nút hoặc video không hoạt động
+                                            </label>
+
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                            <label class="form-check-label" for="defaultCheck2">
+                                                Nó có một lỗi chính tả
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                            <label class="form-check-label" for="defaultCheck2">
+                                                Thông tin bị thiếu
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                            <label class="form-check-label" for="defaultCheck2">
+                                                THông tin đã lỗi thời hoặc sai
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                            <label class="form-check-label" for="defaultCheck2">
+                                                Lỗi thời đăng nhập khi cố gắng truy cập tài khoản
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                            <label class="form-check-label" for="defaultCheck2">
+                                                Tôi không thể tìm thấy những gì tôi đang tìm kiếm
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                            <label class="form-check-label" for="defaultCheck2">
+                                                Vấn đề khác không có trong danh sách này
+                                            </label>
+                                        </div>
+                                        <button class="btn btn-dark">Nộp</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <!-- <div class="fui-button-call" style="position: absolute;
+        right: 0;
+        top: -200px;">
+            <a href="#" class="social-link" title="0987654321">
+                <div class="icon">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                    </svg>
+                </div>
+                <span class="text">0987654321</span>
+            </a>
+        </div> -->
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-md-2 col-12 col-sm-6">
+                        <div class="footer--logo">
+                            <a href="/"><img src="img/image 88.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-12 col-sm-6">
+                        <div class="row">
+                            <div class="col-md-3 col-12 col-sm-6">
+                                <h4>MENU</h4>
+                                <ul>
+                                    <li><a href="page2.html">Câu hỏi thường gặp</a></li>
+                                    <li><a href="page3.html">Công dân</a></li>
+                                    <li><a href="page3.html">Doanh nghiệp</a></li>
+                                    <li><a href="page8.html">Sở y tế</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-12 col-sm-6">
+                                <h4>ĐIỀU KHOẢN</h4>
+                                <ul>
+                                    <li><a href="">Khả năng tiếp cận</a></li>
+                                    <li><a href="">Chính sách liên kết</a></li>
+                                    <li><a href="">Chính sách bảo mật</a></li>
+                                    <li><a href="">Điều khoản sử dụng</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-12 col-sm-6">
+                                <h4>VỀ CƠ SỞ Y TẾ</h4>
+                                <ul>
+                                    <li><a href="">Cơ quan & ban ngành</a></li>
+                                    <li><a href="page19.html">Liên hệ</a></li>
+                                    <li><a href="">Ngày lễ</a></li>
+                                    <li><a href="">Tòa soạn</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-12 col-sm-6">
+                                <h4>LIÊN HỆ</h4>
+                                <ul class="footer--ul__last">
+                                    <li><a href=""><img src="img/mdi_facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="img/mdi_linkedin.png" alt=""></a></li>
+                                    <li><a href=""><img src="img/basil_instagram-solid.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- link xuống dưới jquery min -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"
+        integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--  JS fontawesome -->
+    <script src="js/all.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
