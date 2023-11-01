@@ -7,7 +7,6 @@ $(document).ready(function () {
     var $content = $(this).find(".klk-collapse-item-content");
     var $bgheader = $toggleTitle.closest(".FQ--home .klk-collapse-item-header");
     var $colorheader = $(this).find(".klk-collapse-item-title.home--klk h5");
-    
 
     $toggleTitle.click(function () {
       // Đóng tất cả các div khác
@@ -62,16 +61,25 @@ $(document).ready(function () {
   // ----------menu----------------
 
   // ----menu responsive--------------
-   // Bắt sự kiện click trên thẻ cha <li>
-   $('.nav__mobile-list i').click(function() {
-    // Tìm thẻ con <ul> của thẻ cha
-    var megamenu = $(this).parent().find('.megamenu--mobile');
+  // Bắt sự kiện click trên thẻ cha <li>
+  $(".nav__mobile-list i").click(function () {
 
-    // Nếu thẻ con tồn tại, thay đổi trạng thái hiển thị bằng slideToggle
-    if (megamenu.length > 0) {
+    var megamenu = $(this).parent().find(".megamenu--mobile");     // Tìm thẻ con <ul> của thẻ cha
+
+ 
+    if (megamenu.length > 0) {    // Nếu thẻ con tồn tại, thay đổi trạng thái hiển thị bằng slideToggle
       megamenu.slideToggle();
     }
   });
-  //------- end menu---------
-
+  //  ----------show more page 14--------------
+  $("p[id^='show-more--page14']").click(function() {
+    var content = $(this).prev(".content--td--page14");
+    if (content.hasClass("expanded")) {
+      content.removeClass("expanded");
+      $(this).text("Xem thêm");
+    } else {
+      content.addClass("expanded");
+      $(this).text("Ẩn bớt");
+    }
+});
 });

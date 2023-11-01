@@ -1,7 +1,7 @@
 @import url("base.css");
 
 #home {
-  background-image: url(/img/Rectangle\ 4.png);
+  background-image: url(./img/Rectangle\ 4.png);
   min-height: 210px;
 }
 .header {
@@ -227,16 +227,21 @@ p.header--logo__text {
   height: 36px;
   margin-bottom: 16px;
 }
+.nav--content-right__box:hover{
+  background-color: var(--primary);
+  color: var(--second);
+}
+.nav--content-right__box:hover a{
+  color: var(--second) !important;
+}
 .nav--content-right__box a {
   color: var(--text);
   padding: 8px 16px;
   margin: 0;
   text-align: center;
-  transition: transform .5s;
+
 }
-.nav--content-right__box a:hover{
-  transform: scale(1.1);
-}
+
 .nav--content-right h3 {
   color: var(--primary);
   font-size: clamp(16px, 4vw, 24px);
@@ -496,9 +501,12 @@ footer .footer--logo img {
   margin: 0;
   text-align: center;
 }
-.nav--content-left__box a:hover{
-  transition: transform .2s;
-  transform: scale(1.1);
+.nav--content-left__box:hover{
+  background-color: var(--primary);
+}
+.nav--content-left__box:hover a{
+  color: var(--second) !important;
+
 }
 .nav--content-left__box {
   display: flex;
@@ -751,6 +759,11 @@ footer .footer--logo img {
   line-height: normal;
   color: var(--second);
 }
+.nav--menu__ul li a.active{
+  padding-bottom: 7px;
+  /* border-bottom: 3px solid var(--text); */
+  color: var(--text);
+}
 /* page9 */
 .nav--content--single h2 {
   font-size: clamp(22px, 4vw, 32px);
@@ -769,6 +782,7 @@ footer .footer--logo img {
   font-weight: 600;
   line-height: 140%; /* 39.2px */
 }
+
 .nav--content--page8--img___right img {
   max-width: 223px;
   max-height: 139px;
@@ -1399,7 +1413,7 @@ footer .footer--logo img {
 }
 
 .comment-time {
-  font-size: 12px;
+  font-size: 16px;
   color: #888;
 }
 .border--danhgia {
@@ -1624,9 +1638,9 @@ th {
 /* .section-faq .collapse-item:first-child {
   border-top: none;
 } */
-.section-faq .collapse-item:last-child {
+/* .section-faq .collapse-item:last-child {
   border-bottom: none;
-}
+} */
 .klk-collapse-item {
       border-radius: 8px;
      border: 1px solid #dbd3d3;
@@ -1733,6 +1747,26 @@ th {
   flex-wrap: wrap;
 }
 /*  */
+.content--table--page14 p{
+  margin-bottom: 0;
+}
+.content--td--page14{
+  max-height: 68px; /* Điều chỉnh chiều cao tối đa bạn muốn hiển thị ban đầu */
+  overflow: hidden;
+}
+.content--td--page14.expanded{
+  max-height: none;
+}
+.content--td--page14 p{
+  margin-bottom: 0;
+}
+.tab--table--page14 p{
+  margin-bottom: 0;
+}
+#show-more--page14{
+  cursor: pointer;
+  color: var(--primary);
+}
 .table--page14,
 td,
 th {
@@ -2316,6 +2350,7 @@ input:checked + .slider:before {
 .border--text__box::-webkit-scrollbar-corner {
   background: transparent; /* Để thanh cuộn trong suốt */
 }
+/* --------end thanh cuộn----------- */
 .border--text__box h3 {
   padding-bottom: 7px;
 }
@@ -2328,7 +2363,7 @@ input:checked + .slider:before {
   /* background-color: #c1c0c0;  */
 }
 .box--canbo {
-  background-image: url(/img/Rectangle\ 4.png);
+  background-image: url(./img/Rectangle\ 4.png);
   min-height: 530px;
 }
 .xem--canbo {
